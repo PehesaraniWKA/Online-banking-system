@@ -3,7 +3,10 @@
     justify-content: center;
     align-items: center;
     height: 20px;
-    border: 3px solid rgb(0, 0, 0);
+    border-color: #818181;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #363538;
 }
 
 .avatar {
@@ -14,16 +17,19 @@
 }
 
 section#top {
-    background: rgb(123, 134, 232);
-    background: linear-gradient(164deg, rgba(123, 134, 232, 1) 0%, rgba(246, 140, 255, 1) 52%, rgba(255, 222, 50, 1) 100%);
+    background: white;
+    /*background: linear-gradient(164deg, #363538 0%, #8d8c8a 52%, #408697 100%);
     color: #270942;
-    min-height: 30vh;
+    min-height: 30vh;*/
 }
 
 section#bottom {
-    background: rgb(123, 211, 232);
-    background: linear-gradient(135deg, rgba(123, 211, 232, 1) 0%, rgba(232, 123, 165, 1) 0%, rgba(255, 50, 50, 1) 100%);
-    color: #40081a;
+    background: #363538;
+    color: #f6f6f6;
+}
+
+#footerlink {
+    color: #f6f6f6;
 }
 
 .mainnav {
@@ -50,7 +56,7 @@ section#bottom {
 }
 
 .mainnav a:hover {
-    background-color: rgb(255, 196, 0);
+    background-color: rgb(128, 134, 128);
     color: rgb(4, 4, 4);
 }
 
@@ -85,24 +91,18 @@ section#bottom {
     background: #ccc;
 }
 
-
-/*The sticky bar */
-
-.content {
-    padding: 16px;
+/* Styles for footer images*/
+.column {
+    float: left;
+    width: 10%;
+    padding: px;
 }
-
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
 }
-
-.sticky+.content {
-    padding-top: 60px;
-}
-
-
+  
 /* The sidebar menu */
 
 .sidebar {
