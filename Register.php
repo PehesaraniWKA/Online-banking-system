@@ -13,18 +13,34 @@
 <body>
 	<div class="container">
 		<form class="login-email">
-			<p class="login-text" style="font-size: 2rem; font-weight: 800;">Register</p>
+			<p class="login-text" style="font-size: 2rem; font-weight: 800;">Registration Form</p>
 			<div class="input-group">
+				<input type="text" placeholder="First Name" required>
+			</div>
+            <div class="input-group">
+				<input type="text" placeholder="Last Name" required>
+			</div>
+            <div class="input-group">
+				<input type="text" placeholder="NIC number" required>
+			</div>
+            <div class="input-group">
+				<input type="text" placeholder="Addres Line 1" required>
+			</div>
+            <div class="input-group">
+				<input type="text" placeholder="Addres Line 2" required>
+			</div>
+            <div class="input-group">
 				<input type="email" placeholder="Email" required>
 			</div>
 			<div class="input-group">
 				<input type="password" placeholder="Password" required>
 			</div>
 			<div class="input-group">
-				<button class="btn">Submit</button>
-			</div>
-			<p class="login-register-text">Alrady Have an Account<br><br><a href="Login.php">Login Now</a></p>
-            <button class="" type="button"><a href ="Home page.html">Home</a></button>
+                <p align ="right">
+				<button class="btn">Submit</button></p>
+			</div></br>
+			<p align = "right"class="login-register-text">Alrady Have an Account<br><a href="Login.php">Login Now</a></p>
+            <button class="homebt" type="button"><a href ="Register.html">Back</a></button>
 		</form>
 	</div>
 </body>

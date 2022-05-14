@@ -18,12 +18,12 @@ body {
 }
 
 .container {
-    width: 400px;
+    width: 1400px;
     min-height: 400px;
     background: #f6f6f6;
     border-radius: 5px;
     box-shadow: 0 0 5px #363538;
-    padding: 40px 30px;
+    padding: 20px 10px;
 }
 
 .container .login-text {
@@ -54,53 +54,17 @@ body {
     transition: .3s;
 }
 
-.container .login-social a i {
-    margin-right: 5px;
-}
-
-.container .login-social a.facebook {
-    background: #4267B2;
-}
-
-.container .login-social a.twitter {
-    background: #1DA1F2;
-}
-
-.container .login-social a.google-plus {
-    background: #db4a39;
-}
-
-.container .login-social a.linkedin {
-    background: #0e76a8;
-}
-
-.container .login-social a.facebook:hover {
-    background: #3d5fa3;
-}
-
-.container .login-social a.twitter:hover {
-    background: #1991db;
-}
-
-.container .login-social a.google-plus:hover {
-    background: #ca4334;
-}
-
-.container .login-social a.linkedin:hover {
-    background: #0b5c81;
-}
-
 .container .login-email .input-group {
     width: 100%;
     height: 50px;
-    margin-bottom: 25px;
+    margin-bottom: 2px;
 }
 
 .container .login-email .input-group input {
-    width: 100%;
-    height: 100%;
+    width: 25%;
+    height: 50%;
     border: 2px solid #8d8c8a;
-    padding: 15px 20px;
+    padding: 17px 14px;
     font-size: 1rem;
     border-radius: 30px;
     background: transparent;
@@ -115,8 +79,8 @@ body {
 
 .container .login-email .input-group .btn {
     display: block;
-    width: 100%;
-    padding: 15px 20px;
+    width: 10%;
+    padding: 5px 14px;
     text-align: center;
     border: none;
     background: #52D6F4;
@@ -154,4 +118,31 @@ body {
     .container .login-social a {
         display: block;
     }
+}
+
+.homebt {
+    display: flex;
+    background-color: #52D6F4;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 75px;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+    border-top: none;
+    border-color: #818181;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #363538;
+    transition: .3s;
+}
+
+.homebt:hover {
+    background: #408697;
+}
+
+.homebt a {
+    text-decoration: none;
+    color: rgb(234, 228, 228);
 }
