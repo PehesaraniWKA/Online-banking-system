@@ -1,16 +1,35 @@
 .loginbt {
     display: flex;
+    background-color: #2196F3;
     justify-content: center;
     align-items: center;
     height: 20px;
+    width: 100px;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+    border-top: none;
     border-color: #818181;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 2px 2px 4px #363538;
+    transition: .3s;
 }
+
+.loginbt:hover {
+    background: #408697;
+}
+
+.loginbt a {
+    text-decoration: none;
+    color: rgb(234, 228, 228);
+}
+
+
 /* login avatar*/
+
 .avatar {
-    vertical-align: middle;
+    align-self: auto;
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -91,16 +110,20 @@ section#bottom {
     background: #ccc;
 }
 
+
 /* Styles for footer images*/
+
 .column {
     width: 5%;
     padding: 5px;
 }
+
 .srch-icon {
     width: 2px;
     padding: 10px;
 }
-  
+
+
 /* The sidebar menu */
 
 .sidebar {
@@ -169,7 +192,6 @@ section#bottom {
 .openbtn:hover {
     background-color: rgb(224, 221, 14);
 }
-
 
 .mainnavi {
     transition: margin-left .5s;
