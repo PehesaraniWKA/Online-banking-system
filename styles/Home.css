@@ -8,7 +8,7 @@
     border-radius: 10px;
     box-shadow: 2px 2px 4px #363538;
 }
-
+/* login avatar*/
 .avatar {
     vertical-align: middle;
     width: 50px;
@@ -93,14 +93,12 @@ section#bottom {
 
 /* Styles for footer images*/
 .column {
-    float: left;
-    width: 10%;
-    padding: px;
+    width: 5%;
+    padding: 5px;
 }
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
+.srch-icon {
+    width: 2px;
+    padding: 10px;
 }
   
 /* The sidebar menu */
@@ -172,8 +170,6 @@ section#bottom {
     background-color: rgb(224, 221, 14);
 }
 
-
-/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 
 .mainnavi {
     transition: margin-left .5s;
