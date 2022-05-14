@@ -123,17 +123,6 @@ section#bottom {
     margin: auto;
   }
   
-  /* Caption text */
-  .text {
-    color: #363538;
-    font-size: 20px;
-    padding: 8px 12px;
-    position: relative;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-  }
-  
   /* The dots/bullets/indicators */
   .dot {
     height: 15px;
