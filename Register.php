@@ -5,8 +5,11 @@
     <title> ABC BANK </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles/Home.css">
+    <link rel="stylesheet" href="styles/register.css">
     <!-- Load icon library (get a search icon)-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    
 </head>
 
 <body>
@@ -30,8 +33,8 @@
         <!--Navigation bar-->
         <div class="mainnav">
             <a class="openbtn" onclick="openNav()">&#9776; Services</a>
-            <a class="active" href="#home">Home</a>
-            <a href="Register.php">Registration</a>
+            <a href="Home page.html">Home</a>
+            <a class="active" href="#">Registration</a>
             <a href="#contact">Contact us</a>
             <a Shref="#about">About us</a>
             <div class="search-container">
@@ -75,29 +78,24 @@
         </div>
         <!--Horizontal line-->
         <hr style="width:100%">
-        <!--Slide show-->
-        <div class="content">
-            <img src="" alt="slide show" width="500px" height="300px"><br><br><br>
-            <img src="" alt="Accounts" width="500px" height="300px">
-            <img src="" alt="Loan&Leasing" width="500px" height="300px">
-            <img src="" alt="E-Banking" width="500px" height="300px">
-            <img src="" alt="Promotion" width="500px" height="300px">
-
-            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et.
-                Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et.
-                Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et.
-                Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et.
-                Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et.
-                Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et.
-                Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-
-
-            </script>
+        <!--Register Form-->
+        
+        <div class="container">
+		<form class="login-email">
+			<p class="login-text" style="font-size: 2rem; font-weight: 800;">Register for an new Account</p>
+			<div class="input-group">
+				<input type="email" placeholder="Email" required>
+			</div>
+			<div class="input-group">
+				<input type="password" placeholder="Password" required>
+			</div>
+			<div class="input-group">
+				<button class="btn">Login</button>
+			</div>
+			<p class="login-register-text">Already Have an Account?<br><br><a href="Login.php">Login Now</a></p>
+		</form>
+            </table>
+	</div>
             <!--Horizontal line-->
 
             <hr style="width:100%">
