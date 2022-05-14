@@ -1,0 +1,147 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title> ABC BANK </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/Home.css">
+    <!-- Load icon library (get a search icon)-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <div id="main">
+        <section id="top">
+            <img align="left" src="images/Bank logo.png" alt="Logo" width="400px" height="200px">
+            <div align="right">
+                <img align="center" src="images/Avatar.png" alt="Avatar" class="avatar"><br><br>
+                <button align="center" class="loginbt" type="button">Login/Sign up</button>
+            </div>
+
+            <center>
+                <h1> ABC BANK</h1>
+            </center>
+        </section>
+        <hr style="width:100%">
+        <div class="mainnav">
+            <a class="openbtn" onclick="openNav()">&#9776; Services</a>
+            <a class="active" href="#home">Home</a>
+            <!--<a href="#Services">Services</a>-->
+            <a href="#Registration">Registration</a>
+            <a href="#contact">Contact us</a>
+            <a Shref="#about">About us</a>
+            <div class="search-container">
+                <form action="/action_page.php">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Slide bar -->
+
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">Accounts</a>
+            <a href="#">Loan&Leasing</a>
+            <a href="#">E-banking</a>
+            <a href="#">Promotion</a>
+            <br><br><br> <br><br><br> <br><br><br> <br><br><br> <br><br><br>
+
+            <!--Calender-->
+            <section>
+                <div class="box">
+                    <div class="container">
+                        <div id="mycalendar"></div>
+                    </div>
+                </div>
+            </section>
+            <script src="js/mycalendar.js"></script>
+            <script>
+                mycalendar.draw({
+                    target: '#mycalendar',
+                    type: 'month',
+                    dayformat: 'full',
+                    monthformat: 'full',
+                    highlighttargetdate: true,
+                    prevnextbutton: 'diseble' //disable prevnextbutton
+
+                })
+            </script>
+        </div>
+
+        <hr style="width:100%">
+        <div class="content">
+            <img src="" alt="slide show" width="500px" height="300px"><br><br><br>
+            <img src="" alt="Accounts" width="500px" height="300px">
+            <img src="" alt="Loan&Leasing" width="500px" height="300px">
+            <img src="" alt="E-Banking" width="500px" height="300px">
+            <img src="" alt="Promotion" width="500px" height="300px">
+
+            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et.
+                Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et.
+                Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et.
+                Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et.
+                Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et.
+                Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et.
+                Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et.
+                Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+
+            <hr style="width:100%">
+        </div>
+        <section id="bottom">
+            <footer>
+                <table width="100%">
+                    <tr>
+                        <td><img src="" alt="QR code" width="500px" height="300px"></td>
+                        <td>
+                            <h3>Careers</h3>
+                        </td>
+                        <td>
+                            <h3>News & Evenets</h3>
+                        </td>
+                        <td>
+                            <h3>Get in touch</h3>
+                        </td>
+                        <tr>
+                            <td>Scan for mobile application</td>
+                            <td>
+                                <ul>
+                                    <li>Internships</li>
+                                    <li>Management Trainer</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Central Bank New policies</li>
+                                    <li>"Husma" Charity Funds</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Address</li>
+                                    <li>Emails:<a href="">info@abcbank.lk</a></li>
+                                    <li>Fax:<a href="">+94658741235</a></li>
+                                    <li>Call us:<a href="">+94754123624</a></li>
+                                </ul>
+                            </td>
+                        </tr>
+                </table>
+                <hr style="width:100%">
+                <center>
+                    <p>2022 ABC Bannk PLC.ALL Rights Reserved|Customer Charter & Disclaimer|Solution by:NamsriSolution</p>
+                </center>
+            </footer>
+        </section>
+        <script src="js/Home.js"></script>
+    </div>
+</body>
+
+</html>
