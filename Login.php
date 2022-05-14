@@ -23,7 +23,7 @@
 			<div class="input-group">
 				<button class="btn">Login</button>
 			</div>
-			<p class="login-register-text">Not Registered Yet<br>Get the best online banking experience with ABC Bank<br><a href="register.php">Register Now</a></p>
+			<p class="login-register-text">Not Registered Yet?<br>Get the best online banking experience with ABC Bank<br><a href="Register.php">Register Now</a></p>
 		</form>
 	</div>
 </body>
