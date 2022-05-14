@@ -395,3 +395,33 @@ section#bottom {
     font-size: 1em;
     font-weight: 500;
 }
+
+
+/*Registration html page*/
+
+.registbt {
+    display: flex;
+    background-color: #2196F3;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 75px;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+    border-top: none;
+    border-color: #818181;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #363538;
+    transition: .3s;
+}
+
+.registbt:hover {
+    background: #408697;
+}
+
+.registbt a {
+    text-decoration: none;
+    color: rgb(234, 228, 228);
+}
