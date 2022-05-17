@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html>
 
@@ -5,6 +9,7 @@
     <title> ABC BANK </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles/Home.css">
+    <link rel="stylesheet" href="styles/acconts.css">
     <!-- Load icon library (get a search icon)-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -15,9 +20,7 @@
             <!--Avater image-->
             <img align="left" src="images/Bank logo.png" alt="Logo" width="400px" height="200px">
             <div align="right">
-                <img align="center" src="images/Avatar.png" alt="Avatar" class="avatar"><br><br>
-                <!--Login button-->
-                <button align="center" class="loginbt" type="button">Login/Sign up</button>
+
             </div>
 
             <!--<center>
@@ -29,10 +32,19 @@
         <!--Navigation bar-->
         <div class="mainnav">
             <a class="openbtn" onclick="openNav()">&#9776; Services</a>
-            <a class="active" href="#home">Home</a>
-            <a href="#Registration">Registration</a>
+            <a href="Home.php">Home</a>
+            <?php
+            if(isset($_SESSION["useruid"])) {
+                echo "<a href='Profile.php'>Profile</a>";
+                echo "<a href='includes/logout.inc.php'>Logout</a>";
+            }
+            else {
+                echo "<a href='Register intro.php'>Register</a>";
+                echo "<a href='Login.php'>Login</a>";
+            }
+            ?>
             <a href="#contact">Contact us</a>
-            <a href="#about">About us</a>
+            <a  href="about us.php">About us</a>
             <div class="search-container">
                 <form action="/action_page.php">
                     <input type="text" placeholder="Search.." name="search">
@@ -74,11 +86,43 @@
         </div>
         <!--Horizontal line-->
         <hr style="width:100%">
-        
+         <!--Slide show-->
+         <div class="slideshow-container">
+
+            <div class="Slides fade">
+              <img src="images/slideshow image 4.png" style="width:100%">
+              <div class="text">ABC Bank</div>
+            </div>
+            
+            <div class="Slides fade">
+              <img src="images/slideshow image 2.png" style="width:100%">
+              <div class="text">ABC Bank</div>
+            </div>
+            
+            <div class="Slides fade">
+              <img src="images/slideshow image 3.png" style="width:100%">
+              <div class="text">ABC Bank</div>
+            </div>
+
+            <div class="Slides fade">
+                <img src="images/Job vacancies.png" style="width:100%">
+                <div class="text">ABC Bank</div>
+              
+            </div>
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span>
+              <span class="dot"></span> 
+            </div>
+
+            <p>amamamamamamamamamamamamamammammamamamammamamamamammamamamamamamamamammamamamammam</p>
             <!--Horizontal line-->
 
-            <hr style="width:100%">
-        </div>
+            <hr style="width:100%"> 
         <!--Footer-->
         <section id="bottom">
             <footer>
@@ -127,12 +171,14 @@
                         <td class="column">
                             <p><img src="images/img_snow.jpg" alt="Snow" style="width:100%"></p>
                             <p><img src="images/img_forest.jpg" alt="Forest" style="width:100%"></p>
-                            <p><img src="images/img_mountains.jpg" alt="Mountains" style="width:100%"></p>    
-                        </td> 
-                        <td><p></p></td>
-                        <td  class="srch-icon">
+                            <p><img src="images/img_mountains.jpg" alt="Mountains" style="width:100%"></p>
+                        </td>
+                        <td>
+                            <p></p>
+                        </td>
+                        <td class="srch-icon">
                             <p><img src="images/Search icon.jpg" alt="Call icon" style="width:100%">1616</p>
-                        </td>  
+                        </td>
                     </tr>
                 </table>
                 <hr style="width:100%">

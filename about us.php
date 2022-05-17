@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html>
 
@@ -12,14 +16,9 @@
 <body>
     <div id="main">
         <section id="top">
-            <!--Avater image-->
+            
             <img align="left" src="images/Bank logo.png" alt="Logo" width="400px" height="200px">
-            <div align="right">
-
-
-                <!--Login button-->
-
-            </div>
+            
 
             <!--<center>
                 <h1> ABC BANK</h1>
@@ -30,10 +29,19 @@
         <!--Navigation bar-->
         <div class="mainnav">
             <a class="openbtn" onclick="openNav()">&#9776; Services</a>
-            <a href="Home page.html">Home</a>
-            <a class="active" href="#">Registration</a>
+            <a href="Home.php">Home</a>
+            <?php
+            if(isset($_SESSION["useruid"])) {
+                echo "<a href='Profile.php'>Profile</a>";
+                echo "<a href='includes/logout.inc.php'>Logout</a>";
+            }
+            else {
+                echo "<a href='Register intro.php'>Register</a>";
+                echo "<a href='Login.php'>Login</a>";
+            }
+            ?>
             <a href="#contact">Contact us</a>
-            <a href="about us.html">About us</a>
+            <a class="active" href="#about">About us</a>
             <div class="search-container">
                 <form action="/action_page.php">
                     <input type="text" placeholder="Search.." name="search">
@@ -46,7 +54,7 @@
 
         <div id="mySidebar" class="sidebar">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="#">Accounts</a>
+            <a href="account.php">Accounts</a>
             <a href="#">Loan&Leasing</a>
             <a href="#">E-banking</a>
             <a href="#">Promotion</a>
@@ -75,42 +83,7 @@
         </div>
         <!--Horizontal line-->
         <hr style="width:100%">
-        <!--Slide show-->
-        <!--Slide show-->
-        <div class="slideshow-container">
 
-            <div class="Slides fade">
-                <img src="images/slideshow image 4.png" style="width:100%">
-                <div class="text">ABC Bank</div>
-            </div>
-
-            <div class="Slides fade">
-                <img src="images/slideshow image 2.png" style="width:100%">
-                <div class="text">ABC Bank</div>
-            </div>
-
-            <div class="Slides fade">
-                <img src="images/slideshow image 3.png" style="width:100%">
-                <div class="text">ABC Bank</div>
-            </div>
-
-            <div class="Slides fade">
-                <img src="images/Job vacancies.png" style="width:100%">
-                <div class="text">ABC Bank</div>
-
-            </div>
-        </div>
-        <br>
-
-        <div style="text-align:center">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-        </div>
-        <br><br><br>
-        <p>Click Here to Register</p>
-        <button class="registbt" type="button"><a href =Register.php>Register</a></button>
         <!--Horizontal line-->
 
         <hr style="width:100%">

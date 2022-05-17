@@ -1,15 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
     font-family: 'Poppins', sans-serif;
 }
 
 body {
     width: 100%;
     min-height: 100vh;
-    /*background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(bg.jpg);*/
+    /*background-image: linear-gradient(rgba(229, 140, 140, 0.5), rgba(0, 0, 0, .5)), url(bg.jpg);*/
     background-position: center;
     background-size: cover;
     display: flex;
@@ -17,70 +16,68 @@ body {
     align-items: center;
 }
 
-.container {
-    width: 1400px;
-    min-height: 400px;
-    background: #f6f6f6;
+.signup-form {
+    height: 650px;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
     border-radius: 5px;
-    box-shadow: 0 0 5px #363538;
-    padding: 20px 10px;
+    box-shadow: 0px 0px 5px 0px #585a5bae;
 }
 
-.container .login-text {
-    color: #111;
-    font-weight: 500;
-    font-size: 1.1rem;
-    text-align: left;
-    margin-bottom: 20px;
-    display: block;
-    text-transform: capitalize;
-}
-
-.container .login-social {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
-    margin-bottom: 25px;
-}
-
-.container .login-social a {
-    padding: 12px;
-    margin: 10px;
-    border-radius: 3px;
-    box-shadow: 0 0 5px #363538;
-    text-decoration: none;
-    font-size: 1rem;
+.signup-form form {
+    padding: 20px;
     text-align: center;
-    color: #f6f6f6;
-    transition: .3s;
+    width: 700px;
 }
 
-.container .login-email .input-group {
-    width: 100%;
-    height: 50px;
-    margin-bottom: 2px;
+.signup-form form .flex {
+    display: flex;
+    margin-bottom: 20px;
+    gap: 15px;
 }
 
-.container .login-email .input-group input {
-    width: 25%;
-    height: 50%;
-    border: 2px solid #8d8c8a;
-    padding: 17px 14px;
-    font-size: 1rem;
-    border-radius: 30px;
-    background: transparent;
-    outline: none;
-    transition: .3s;
+.signup-form form .flex .inputBox {
+    width: 49%;
 }
 
-.container .login-email .input-group input:focus,
-.container .login-email .input-group input:valid {
-    border-color: #52D6F4;
-}
-
-.container .login-email .input-group .btn {
+.signup-form form .flex .inputBox span {
+    text-align: left;
+    cursor: default;
+    font: size 0.5em;
     display: block;
-    width: 10%;
-    padding: 5px 14px;
+    margin-top: 15px;
+    font-size: 17px;
+    color: var(--black);
+}
+
+.signup-form form .flex .inputBox .box {
+    width: 75%;
+    border: 2px solid #5a5959;
+    border-radius: 25px;
+    padding: 2px 20px;
+    font-size: 15px;
+    font-display: swap;
+    color: #000000;
+    margin-top: 10px;
+}
+
+.signup-form form h3 {
+    width: 100%;
+}
+
+.signup-form form p {
+    font-weight: 600;
+    font-size: medium;
+}
+
+.btn {
+    display: block;
+    margin-bottom: 1px;
+    height: 50px;
+    width: 200px;
     text-align: center;
     border: none;
     background: #52D6F4;
@@ -92,57 +89,97 @@ body {
     transition: .3s;
 }
 
-.container .login-email .input-group .btn:hover {
+.btn:hover {
     transform: translateY(-5px);
     background: #408697;
 }
 
-.login-register-text {
-    color: #111;
-    text-align: center;
-    font-weight: 600;
-}
-
-.login-register-text a {
+.btn a {
     text-decoration: none;
-    color: #52D6F4;
+    color: rgb(234, 228, 228);
 }
 
-@media (max-width: 430px) {
-    .container {
-        width: 300px;
-    }
-    .container .login-social {
-        display: block;
-    }
-    .container .login-social a {
-        display: block;
-    }
-}
-
-.homebt {
-    display: flex;
-    background-color: #52D6F4;
-    justify-content: center;
-    align-items: center;
-    height: 20px;
-    width: 75px;
-    border-right: none;
-    border-bottom: none;
-    border-left: none;
-    border-top: none;
-    border-color: #818181;
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 4px #363538;
+.btnback {
+    display: block;
+    margin-bottom: 1px;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    border: none;
+    background: #52D6F4;
+    outline: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    color: #f6f6f6;
+    cursor: pointer;
     transition: .3s;
 }
 
-.homebt:hover {
+.btnback:hover {
+    transform: translateY(-5px);
     background: #408697;
 }
 
-.homebt a {
+.btnback a {
     text-decoration: none;
     color: rgb(234, 228, 228);
+}
+
+
+/* The message box is shown when the user clicks on the password field */
+
+.pwbox {
+    box-shadow: 0px 5px 5px #363538;
+    border-radius: 5px;
+    background-color: #d4e4e8;
+}
+
+#message {
+    display: none;
+    background-color: rgb(252, 246, 246);
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+#message p {
+    padding: 10px 35px;
+    font-size: 13px;
+}
+
+
+/* Add a green text color and a checkmark when the requirements are right */
+
+.valid {
+    color: green;
+}
+
+.valid:before {
+    position: relative;
+    left: -35px;
+    content: "✔";
+}
+
+
+/* Add a red text color and an "x" when the requirements are wrong */
+
+.invalid {
+    color: red;
+}
+
+.invalid:before {
+    position: relative;
+    left: -35px;
+    content: "✖";
+}
+
+@media (max-width:850px) {
+    .signup-form form form .flex {
+        flex-wrap: wrap;
+        gap: 0;
+    }
+    .signup-form form .flex .inputBox {
+        width: 100%;
+    }
 }

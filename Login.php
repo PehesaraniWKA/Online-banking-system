@@ -11,20 +11,36 @@
 	<title>ABC Bank User Login</title>
 </head>
 <body>
+	
+	
 	<div class="container">
-		<form class="login-email">
+			
+		<form action="includes/login.inc.php" method="post" class="login-email">
+			<!--error messages for incorrect details -->
+<?php
+if (isset($_GET["error"])) {
+	if ($_GET["error"] == "emptyinput") {
+		echo "<p>Fill in all fields!</p>";
+	}
+	elseif ($_GET["error"] == "wronglogin") {
+		echo "<p>Incorrect login information!</p>";
+	}
+}
+?>
 			<p class="login-text" style="font-size: 2rem; font-weight: 800;">Login in to your Account</p>
 			<div class="input-group">
-				<input type="email" placeholder="Email" required>
+				<input type="text" name="uid" placeholder="Username/Email.." required>
 			</div>
 			<div class="input-group">
-				<input type="password" placeholder="Password" required>
+				<input type="password" name="pwd" placeholder="Password.." required>
 			</div>
 			<div class="input-group">
-				<button class="btn">Login</button>
+				<button type="submit" name="submit" class="btn">Log In</button>
 			</div>
 			<p class="login-register-text">Not Registered Yet?<br>Get the best online banking experience with ABC Bank<br><a href="Register.php">Register Now</a></p>
-		</form>
-	</div>
+		
+</div>
+</form>
+	
 </body>
 </html>
