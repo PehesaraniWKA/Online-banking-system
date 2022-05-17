@@ -1,0 +1,57 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.calrow > .calcolumn {
+    padding: 0 8px;
+  }
+
+
+.calcolumn {
+    float: left;
+    width: 30%;
+    margin-bottom: 16px;
+    padding: 20px;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .calcolumn {
+      width: 100%;
+      display: block;
+    }
+  }
+
+  .calimage {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .calcontainer {
+    padding: 0 16px;
+  }
+
+  .calcontainer::after, .calrow::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .calbutton {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    border-radius: 30px;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  .calbutton:hover {
+    background-color: #555;
+  }

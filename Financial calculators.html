@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles/Home.css">
     <!-- Load icon library (get a search icon)-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/financialCalculators.css">
 </head>
 
 <body>
@@ -15,9 +16,10 @@
             <!--Avater image-->
             <img align="left" src="images/Bank logo.png" alt="Logo" width="400px" height="200px">
             <div align="right">
-                <img align="center" src="images/Avatar.png" alt="Avatar" class="avatar"><br><br>
+
+                <img src="images/Avatar.png" alt="Avatar" class="avatar">
                 <!--Login button-->
-                <button align="center" class="loginbt" type="button">Login/Sign up</button>
+                <button class="loginbt" type="button"><a href =Login.php>Login</a></button>
             </div>
 
             <!--<center>
@@ -29,10 +31,10 @@
         <!--Navigation bar-->
         <div class="mainnav">
             <a class="openbtn" onclick="openNav()">&#9776; Services</a>
-            <a class="active" href="#home">Home</a>
-            <a href="#Registration">Registration</a>
+            <a href="Home page.html">Home</a>
+            <a href="Register.html">Registration</a>
             <a href="#contact">Contact us</a>
-            <a href="#about">About us</a>
+            <a href="about us.html">About us</a>
             <div class="search-container">
                 <form action="/action_page.php">
                     <input type="text" placeholder="Search.." name="search">
@@ -45,10 +47,12 @@
 
         <div id="mySidebar" class="sidebar">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="#">Accounts</a>
+            <a href="account.html">Accounts</a>
             <a href="#">Loan&Leasing</a>
             <a href="#">E-banking</a>
             <a href="#">Promotion</a>
+            <a href="Financial calculators.html">Financial calculators</a>
+
             <br><br><br> <br><br><br> <br><br><br> <br><br><br> <br><br><br>
 
             <!--Calender-->
@@ -74,11 +78,41 @@
         </div>
         <!--Horizontal line-->
         <hr style="width:100%">
+        <br><br>
+        <h2>Financial calculators</h2><br><br>
+        <div class="calrow" width="100%">
+            <div class="calcolumn">
+                <div class="claimage">
+                  <img src="images/loan cal image.png" alt="Loan calculator" style="width:100%">
+                  <div class="calcontainer">
+                    <p><button class="calbutton">Loan calculator</button></p>
+                  </div>
+                </div>
+            </div>
         
-            <!--Horizontal line-->
+            <div class="calcolumn">
+              <div class="claimage">
+                <img src="images/currency converter icon.png" alt="Currency convertor" style="width:100%">
+                <div class="calcontainer">
+                  <p><button class="calbutton">Currency converter</button></p>
+                </div>
+              </div>
+            </div>
 
-            <hr style="width:100%">
-        </div>
+            <div class="calcolumn">
+              <div class="claimage">
+                <img src="images/simple cal image.png" alt="Simple calculator" style="width:100%">
+                <div class="calcontainer">
+                  <p><button class="calbutton">Normal calculator</button></p>
+                </div>
+              </div>
+            </div>
+        </div>    
+          
+         
+        <!--Horizontal line-->
+        <hr style="width:100%"> 
+
         <!--Footer-->
         <section id="bottom">
             <footer>
@@ -127,12 +161,14 @@
                         <td class="column">
                             <p><img src="images/img_snow.jpg" alt="Snow" style="width:100%"></p>
                             <p><img src="images/img_forest.jpg" alt="Forest" style="width:100%"></p>
-                            <p><img src="images/img_mountains.jpg" alt="Mountains" style="width:100%"></p>    
-                        </td> 
-                        <td><p></p></td>
-                        <td  class="srch-icon">
+                            <p><img src="images/img_mountains.jpg" alt="Mountains" style="width:100%"></p>
+                        </td>
+                        <td>
+                            <p></p>
+                        </td>
+                        <td class="srch-icon">
                             <p><img src="images/Search icon.jpg" alt="Call icon" style="width:100%">1616</p>
-                        </td>  
+                        </td>
                     </tr>
                 </table>
                 <hr style="width:100%">
