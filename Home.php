@@ -1,6 +1,3 @@
-<?php
-session_start();
-?>
 
 <?php
 include_once 'header.php'
@@ -19,15 +16,6 @@ include_once 'header.php'
             ?>
             <a href="#contact">Contact us</a>
             <a  href="about us.php">About us</a>
-            <?php
-            if(isset($_SESSION["useruid"])) { 
-                echo "<a href='includes/logout.inc.php'>Logout</a>";
-            }
-            else {
-                echo "<a href='Login.php'>Login</a>";
-            }
-            ?>
-
             <div class="search-container">
                 <form action="/action_page.php">
                     <input type="text" placeholder="Search.." name="search">

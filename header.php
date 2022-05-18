@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html>
 
@@ -17,8 +20,31 @@
         <section id="top">
             <!--Avater image-->
             <img align="left" src="images/Bank logo.png" alt="Logo" width="400px" height="200px">
-            <div align="right">
-            </div>
+            
+            <?php
+            if(isset($_SESSION["userimg"])) {
+                echo "<div align='right'><img src=uploadedimage/".$_SESSION['userimg']." alt='Avatar' class='avatar'></div>";
+            }
+            else {
+                echo "<div align='right'><img src='images/Avatar.png' alt='Avatar' class='avatar'></div>";
+            }
+            ?>
+            <?php
+            if(isset($_SESSION["useruid"])) {
+                echo "<div align='right'
+                <!--Login button-->
+                <button class='loginbt' type='button'><a href ='includes/logout.inc.php'>Logout</a></button>
+            </div>";
+            }
+            else {
+                echo "<div align='right'>
+                <!--Login button-->
+                <button class='loginbt' type='button'><a href ='Login.php'>Login</a></button>
+            </div>"; 
+            }
+            ?>
+             
+
 
             <!--<center>
                 <h1> ABC BANK</h1>
