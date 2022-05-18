@@ -43,7 +43,9 @@ include_once 'header.php'
             
             ?>
         </body>
-        
+    <!--Horizontal line-->
+    <hr style="width:100%">
+          
 <?php
 include_once 'slide show.php'
 ?>            

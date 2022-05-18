@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="styles/Home.css">
     <!-- Load icon library (get a search icon)-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/financialCalculators.css">
+    
 </head>
 
 <body>
@@ -34,6 +36,7 @@
             <a href="#">Loan&Leasing</a>
             <a href="#">E-banking</a>
             <a href="#">Promotion</a>
+            <a href="Financial calculators.php">Financial Calculators</a>
             <br><br><br> <br><br><br> <br><br><br> <br><br><br> <br><br><br>
 
             <!--Calender-->
@@ -57,5 +60,4 @@
                 })
             </script>
         </div>
-        <!--Horizontal line-->
-        <hr style="width:100%">
+        

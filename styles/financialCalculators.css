@@ -7,15 +7,16 @@ html {
 }
 
 .calrow > .calcolumn {
-    padding: 0 8px;
+    padding: 0 10px;
   }
 
 
 .calcolumn {
     float: left;
     width: 30%;
-    margin-bottom: 16px;
-    padding: 20px;
+    /*margin-bottom: 16px;*/
+    padding: 5px;
+    box-shadow: 0 0 5px #363538;
   }
   
   @media screen and (max-width: 650px) {
