@@ -1,0 +1,42 @@
+body{
+    background: linear-gradient(to right, #408697,#f6f6f6);
+}
+
+.currency-form{
+    font-family: sans-serif 'Times New Roman', Times, serif;
+    font-size: 20px;
+    width: 600px;
+    height: inherit;
+    margin: 100px auto;
+    background: #f6f6f6;
+    box-shadow: 0px 12px 50px 11px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    color: #363538;
+    overflow: hidden;
+    padding: 30px 30px;
+    box-sizing: border-box;
+}
+
+.currency-form .form-btn{
+        background: #8d8c8d;
+        color: white;
+        border: none;
+        padding: 8px 32px;
+        border-radius: 8px;
+        font-size: 15px;
+        font-weight: 700;
+        cursor: pointer;
+        margin: 24px 0;
+    }
+    
+    .form-btn:hover {
+        transform: translateY(-5px);
+        background: #408697;
+    }
+    
+    @media (max-width: 650px) {
+        .loan-calculator {
+            width:90%;
+            max-width: 500px;
+        }
+}

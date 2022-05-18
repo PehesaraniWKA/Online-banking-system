@@ -58,7 +58,7 @@
                 <div class="claimage">
                   <img src="images/loan cal image.png" alt="Loan calculator" style="width:100%">
                   <div class="calcontainer">
-                    <p><button class="calbutton">Loan calculator</button></p>
+                    <p><a href="Loan calculator.html" target= new><button class="calbutton">Loan calculator</button></p></a>
                   </div>
                 </div>
             </div>
@@ -67,7 +67,7 @@
               <div class="claimage">
                 <img src="images/currency converter icon.png" alt="Currency convertor" style="width:100%">
                 <div class="calcontainer">
-                  <p><button class="calbutton">Currency converter</button></p>
+                  <p><a href="Currency converter.php" target= new><button class="calbutton">Currency converter</button></a></p>
                 </div>
               </div>
             </div>
@@ -76,7 +76,7 @@
               <div class="claimage">
                 <img src="images/simple cal image.png" alt="Simple calculator" style="width:100%">
                 <div class="calcontainer">
-                  <p><button class="calbutton">Normal calculator</button></p>
+                  <p><a href="Normal calculator.html" target= new><button class="calbutton">Normal calculator</button></a></p>
                 </div>
               </div>
             </div>
