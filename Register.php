@@ -27,7 +27,7 @@
 			<input type="text"  class="box" name="uid" placeholder="User name.."><br />
 			<input type="password" class="box" name="pwd" id="pwd" placeholder="Password.." pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"><br />
 			<input type="password" class="box" name="pwdrepeat" placeholder="Repeat password.."><br /></br>
-			<textarea rows="2" cols="50" class="box" name="snote" placeholder="Special Notes.."></textarea></br><br />	
+			<textarea rows="2" cols="50" class="box" name="snote" placeholder="Special Notes(optional).."></textarea></br><br />	
 			</div> 	
 		</div>	
 				

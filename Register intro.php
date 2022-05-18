@@ -15,12 +15,13 @@ include_once 'header.php'
                 </form>
             </div>
         </div>
-    <?php
-include_once 'slide show.php'
-?>    
         <br><br><br>
-        <p>Click Here to Register</p>
-        <button class="registbt" type="button"><a href =Register.php>Register</a></button>
+        <p align="center" style="font-size:20px; font-weight:bold; font-color:">Click Here for online Registration form
+        <button class="registbt" type="button"><a href =Register.php>Register</a></button></p>
+<?php
+include_once 'slide show.php'
+?>            
+
 <?php
 include_once 'footer.php'
 ?>       

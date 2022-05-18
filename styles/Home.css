@@ -1,24 +1,20 @@
 /*Login button*/
 
 .loginbt {
-    display: flex;
-    background-color: #2196F3;
-    justify-content: center;
-    align-items: center;
-    height: 20px;
-    width: 50px;
-    border-right: none;
-    border-bottom: none;
-    border-left: none;
-    border-top: none;
-    border-color: #818181;
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 4px #363538;
+    padding: 9px 21px;
+    text-align: center;
+    border: none;
+    background: #2196F3;
+    outline: none;
+    border-radius: 30px;
+    font-size: 14px;
+    color: #f6f6f6;
+    cursor: pointer;
     transition: .3s;
 }
 
 .loginbt:hover {
+    transform: translateY(-5px);
     background: #408697;
 }
 
@@ -31,9 +27,9 @@
 /* login avatar*/
 
 .avatar {
-    align-self: auto;
-    width: 50px;
-    height: 50px;
+    align-self: center;
+    width: 81px;
+    height: 59px;
     border-radius: 50%;
 }
 
@@ -113,18 +109,23 @@ section#bottom {
     background: #ccc;
 }
 
+
 /* Slideshow container */
 
-.Slides {display: none;}
+.Slides {
+    display: none;
+}
 
 .slideshow-container {
     max-width: 1000px;
     position: static;
     margin: auto;
-  }
-  
-  /* The dots/bullets/indicators */
-  .dot {
+}
+
+
+/* The dots/bullets/indicators */
+
+.dot {
     height: 15px;
     width: 15px;
     margin: 0 2px;
@@ -132,13 +133,14 @@ section#bottom {
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
-  }
-  
-  .active {
+}
+
+.active {
     background-color: #717171;
-  }
-  
-  /* Fading animation
+}
+
+
+/* Fading animation
   .fade {
     animation-name: fade;
     animation-duration: 1.5s;
@@ -149,6 +151,7 @@ section#bottom {
     from {opacity: .4} 
     to {opacity: 1}
   }*/
+
 
 /* Styles for footer images*/
 
@@ -233,7 +236,8 @@ section#bottom {
 }
 
 .mainnavi {
-    transition: margin-left .5s;/* transition effect */
+    transition: margin-left .5s;
+    /* transition effect */
     padding: 20px;
 }
 
@@ -432,27 +436,25 @@ section#bottom {
 }
 
 
-/*Registration html page*/
+/*Registration intro page*/
 
 .registbt {
-    display: flex;
-    background-color: #2196F3;
-    justify-content: center;
-    align-items: center;
-    height: 20px;
-    width: 75px;
-    border-right: none;
-    border-bottom: none;
-    border-left: none;
-    border-top: none;
-    border-color: #818181;
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 4px #363538;
+    display: block;
+    width: 10%;
+    padding: 15px 20px;
+    text-align: center;
+    border: none;
+    background: #2196F3;
+    outline: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    color: #f6f6f6;
+    cursor: pointer;
     transition: .3s;
 }
 
 .registbt:hover {
+    transform: translateY(-5px);
     background: #408697;
 }
 
