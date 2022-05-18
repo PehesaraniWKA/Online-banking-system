@@ -14,7 +14,7 @@
     <!--Navigation bar-->
     <div class="mainnav">
                 <a class="openbtn" onclick="openNav()">&#9776; Services</a>
-                <a class="active" href="Home.php">Home</a>
+                <a  href="Home.php">Home</a>
                 <?php
                 if(isset($_SESSION["useruid"])) {
                     echo "<a href='Profile.php'>Profile</a>";
@@ -25,15 +25,6 @@
                 ?>
                 <a href="#contact">Contact us</a>
                 <a  href="about us.php">About us</a>
-                <?php
-                if(isset($_SESSION["useruid"])) { 
-                    echo "<a href='includes/logout.inc.php'>Logout</a>";
-                }
-                else {
-                    echo "<a href='Login.php'>Login</a>";
-                }
-                ?>
-    
                 <div class="search-container">
                     <form action="/action_page.php">
                         <input type="text" placeholder="Search.." name="search">
