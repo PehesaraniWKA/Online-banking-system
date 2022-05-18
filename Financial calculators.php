@@ -32,16 +32,10 @@
                     </form>
                 </div>
             </div>
-           
-            <?php
-                if(isset($_SESSION["useruid"])) {
-                    echo "<p>Hello there " .$_SESSION["useruid"]. "</p>";
-                }
-                
-                ?>
-                 <!--Horizontal line-->
-                <hr style="width:100%">
-                <br><br>
+  <!--Horizontal line-->
+  <hr style="width:100%">          
+            
+                <br>
                 <h1>Financial calculators</h1><br><br>
             
             

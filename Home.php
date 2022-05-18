@@ -24,15 +24,16 @@ include_once 'header.php'
             </div>
         </div>
         <body>
+            <!--Horizontal line-->
+        <hr style="width:100%">
         <?php
             if(isset($_SESSION["useruid"])) {
-                echo "<p>Hello there " .$_SESSION["useruid"]. "</p>";
+                echo "<p align='center' style='font-size:20px; font-weight:bold font-color;'>Hello there " .$_SESSION["useruid"]. "</p>";
             }
             
             ?>
         </body>
-    <!--Horizontal line-->
-    <hr style="width:100%">
+    
           
 <?php
 include_once 'slide show.php'
