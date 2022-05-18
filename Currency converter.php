@@ -31,18 +31,23 @@
                             if ($cc_dropdown == 'us')
                             {
                                 $output = $cc_input * 0.00277783;
-                                echo "<p>" . number_format($cc_input, 2) . " Sri Lankan rupee =" . "<p>";
-                                echo "<h1>" . number_format($output, 2) . " Dollar" . "<h1>";
+                                echo "<p>" . number_format($cc_input, 2) . " Sri Lankan Rupees =" . "<p>";
+                                echo "<h2>" . number_format($output, 2) . " Dollar" . "<h2>";
+                                echo "<h6>" . "1 LKR = 0.00277786 USD" . "</h6>";
                             }
                             else if ($cc_dropdown == 'eur')
                             {
                                 $output = $cc_input * 0.00264297;
-                                echo "<h1>" . number_format($output, 2)  . " EUR" . "<h1>";
+                                echo "<p>" . number_format($cc_input, 2) . " Sri Lankan Rupees =" . "<p>";
+                                echo "<h2>" . number_format($output, 2)  . " EUR" . "<h2>";
+                                echo "<h6>1 LKR = 0.00264629 EUR</h6>";
                             }
                             else if ($cc_dropdown == 'gbp')
                             {
                                 $output = $cc_input * 0.00223773;
-                                echo "<h1>" . number_format($output, 2)  . " British Pound" . "<h1>";
+                                echo "<p>" . number_format($cc_input, 2) . " Sri Lankan Rupees =" . "<p>";
+                                echo "<h2>" . number_format($output, 2)  . " British Pound" . "<h2>";
+                                echo "<h6>" . "1 LKR = 0.00223693 GBP" . "</h6>";
                             }
                         }
                     ?>

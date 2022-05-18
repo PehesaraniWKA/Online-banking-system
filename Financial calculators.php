@@ -3,7 +3,7 @@
 <header>
       <meta charset="utf-8">
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Financial Calculators<title>
+      <title>Financial Calculators</title>
       <link rel="stylesheet" type="text/css" href="styles/financialCalculators.css">
 </header>
 
