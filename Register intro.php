@@ -16,7 +16,7 @@ include_once 'header.php'
             </div>
         </div>
         <br><br><br>
-        <p align="center" style="font-size:20px; font-weight:bold; font-color:">Click Here for online Registration form
+        <p align="center" style="font-size:20px; font-weight:bold; font-color:">Click Here for online Registration
         <button class="registbt" type="button"><a href =Register.php>Register</a></button></p>
 <?php
 include_once 'slide show.php'
