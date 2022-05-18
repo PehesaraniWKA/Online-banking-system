@@ -73,10 +73,12 @@ function uidExists($conn, $username, $email) {
     mysqli_stmt_close($stmt);
 }
 
-//create function to check user done all things correctly above
+//pass values to the database
 function createUser($conn, $name, $nic, $address, $contactnum, $profileimg, $email, $username, $pwd, $notes) {
     $sql = "INSERT INTO users (usersName, userdNIC, usersAddress, usersPhone, usersIMG, usersEmail, usersUid, userspwd, usersNote) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?);";
     $stmt = mysqli_stmt_init($conn);
+
+    
 
     if (!mysqli_stmt_prepare($stmt, $sql)){
         header("location: ../Register.php?error=stmtfailed");
@@ -132,6 +134,8 @@ function loginUser($conn, $username, $pwd) {
         session_start();
         $_SESSION["userid"] = $uidExists["usersId"];
         $_SESSION["useruid"] = $uidExists["usersUid"];
+        $_SESSION["userimg"] = $uidExists["usersIMG"];
+
 
         header("location: ../Home.php");
         exit(); //stop running

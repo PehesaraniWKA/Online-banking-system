@@ -14,6 +14,8 @@ if(isset($_POST["submit"])){
     $pwd = $_POST["pwd"];
     $pwdRepeat = $_POST["pwdrepeat"];
     $notes = $_POST["snote"];
+    
+
 
     //errors checking
     require_once 'dbh.inc.php'; 
@@ -54,7 +56,7 @@ if(isset($_POST["submit"])){
 
     }
 
-    //create function to check user done all things correctly above
+    //create function to pass values to the database
 
     createUser($conn, $name, $nic, $address, $contactnum, $profileimg, $email, $username, $pwd, $notes);
      
