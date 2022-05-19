@@ -47,6 +47,7 @@
                 </center>
                 <hr style="width:100%">
         <script src="js files/Home.js"></script>
+        <script src="js files/about us.js"></script>
     </div>
 </body>
      

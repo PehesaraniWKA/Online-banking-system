@@ -1,0 +1,96 @@
+.vm {
+    background-color: #F6F6F6;
+}
+
+.intro img {
+    position: relative;
+    top: 3px;
+    left: 200px;
+    width: 80%;
+}
+
+.about-section {
+    background-color: #408697;
+    color: white;
+}
+
+.column-vm {
+    float: left;
+    width: 49.3%;
+    padding: 5px;
+}
+
+.container-awa {
+    padding: 0 8px;
+}
+
+.column-awa {
+    float: left;
+    width: 23%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+.card-awa {
+    transition: box-shadow .3s;
+    margin: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background: #fff;
+    float: left;
+}
+
+.card-awa:hover {
+    box-shadow: 0 0 20px rgba(33, 33, 33, .2);
+    background-color: #ADD8E6;
+}
+
+.title-awa {
+    text-align: justify;
+}
+
+.container-mem {
+    padding: 0 80px;
+}
+
+.column-mem {
+    float: left;
+    width: 23.5%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+.card-mem {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 20px;
+}
+
+.card-mem img {
+    width: 150px;
+    margin-top: 50px;
+}
+
+.title-mem {
+    text-align: justify;
+}
+
+.center-mem {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: 220px;
+}
+
+.director {
+    background-color: #F6F6F6;
+}
+
+.title-se {
+    text-align: center;
+}
+
+.history-ul {
+    padding: 0 600px;
+}
