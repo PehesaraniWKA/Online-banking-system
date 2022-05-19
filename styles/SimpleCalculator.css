@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+section{
+    background: linear-gradient(to right, #363538, #8d8c8a);
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cal-container {
+    width: 90%;
+    max-width: 400px;
+    max-height: 600px;
+    background: #363538;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 30px auto;   
+} 
+
+.display {
+    background-color:#8d8c8a;
+    height: 100px;
+    width: 100%;
+    text-align: right;
+    padding: 10px;
+    font-size: 30px;
+    position: relative;
+}
+
+.display-1 {
+    opacity: .4;
+    font-size: 20px;
+    height: 20px;
+    overflow: hidden;
+}
+
+.temp-result {
+    position: absolute;
+    bottom: 0;
+    left: 10;
+    font-size: 20px;
+    opacity: .4;
+}
+
+.all-buttons{
+    color: whitesmoke;
+    display: grid;
+    grid-template: repeat(4, 1fr) / repeat(4,1fr);
+}
+
+.button{
+    border: .5px solid rgba(92,92,92,0.137);
+    height: 90px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgb(56, 159, 152);
+}
+
+.btn-0{
+    grid-column: 1/3;
+}

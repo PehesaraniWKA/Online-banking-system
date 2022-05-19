@@ -70,7 +70,7 @@
               <div class="claimage">
                 <img src="images/simple cal image.png" alt="Simple calculator" style="width:100%">
                 <div class="calcontainer">
-                  <p><a href="Normal calculator.html" target= new><button class="calbutton">Normal calculator</button></a></p>
+                  <p><a href="SimpleCalculator.html" target= new><button class="calbutton">Normal calculator</button></a></p>
                 </div>
               </div>
             </div>
@@ -80,8 +80,7 @@
     include_once 'footer.php'
     ?>
 
-       
-        <script src="js files/Home.js"></script>
+    <script src="js files/Home.js"></script>
     </div>
 </body>
 
