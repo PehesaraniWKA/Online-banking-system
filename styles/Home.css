@@ -474,3 +474,43 @@ section#bottom {
 .p a {
     text-decoration: none;
 }
+
+
+/*footer*/
+
+.bottom {
+    height: 350px;
+    width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px #585a5bae;
+    background: #363538;
+    color: #f6f6f6;
+}
+
+.bottom .flex {
+    display: flex;
+    margin-bottom: 20px;
+    gap: 100px;
+}
+
+.bottom .flex .inputBox {
+    width: 100%;
+}
+
+.bottom .flex .inputBox span {
+    text-align: left;
+    cursor: default;
+    font: size 0.5em;
+    display: block;
+    margin-top: 15px;
+    font-size: 17px;
+    color: var(--black);
+}
+
+.bottom .flex .inputBox .img {
+    width: 49%;
+}
