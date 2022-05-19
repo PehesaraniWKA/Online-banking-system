@@ -445,16 +445,20 @@ section#bottom {
 .registbt {
     display: block;
     width: 10%;
-    padding: 15px 20px;
+    padding: 10px 20px;
     text-align: center;
     border: none;
     background: #2196F3;
     outline: none;
-    border-radius: 30px;
+    border-radius: 10px;
     font-size: 1.2rem;
     color: #f6f6f6;
     cursor: pointer;
     transition: .3s;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
 .registbt:hover {
@@ -465,4 +469,8 @@ section#bottom {
 .registbt a {
     text-decoration: none;
     color: rgb(234, 228, 228);
+}
+
+.p a {
+    text-decoration: none;
 }
