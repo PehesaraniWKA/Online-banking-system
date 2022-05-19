@@ -38,10 +38,10 @@
                     </div>
                     </footer>
         </section>
-           
-                <hr style="width:100%">
                 <center>
-                    <p>2022 ABC Bannk PLC.ALL Rights Reserved|Customer Charter & Disclaimer|Solution by:NamsriSolution</p>
+                    <div class="bottemtext">
+                    <p><marquee>2022 ABC Bannk PLC.ALL Rights Reserved|Customer Charter & Disclaimer|Solution by:NamsriSolution</marquee></p>
+                    </div>
                 </center>
                 <hr style="width:100%">
         <script src="js files/Home.js"></script>

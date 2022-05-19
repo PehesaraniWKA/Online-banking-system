@@ -514,3 +514,11 @@ section#bottom {
 .bottom .flex .inputBox .img {
     width: 49%;
 }
+
+.bottemtext {
+    height: 50px;
+    width: 100%;
+    padding-top: 4px;
+    color: #eee;
+    background: #363538;
+}
