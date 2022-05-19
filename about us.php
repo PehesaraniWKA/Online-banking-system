@@ -288,6 +288,7 @@ include_once 'header.php'
 									    </button></center>
 			
 				<p><center>The 75 of years history of ABC bank until today... </center><br>
+		<div class="history">		
 			<div class="history-ul">	
 		        <ul><h4><li>1947 - The Western Bank Ltd. (WBL) opened a branch in Bancho Street.</li><br><br>
 						<li>1969 - The ABC Bank Ltd. was incorporated with western Bank holding 45% of its equity.</li><br><br>
@@ -298,7 +299,11 @@ include_once 'header.php'
 						<li>1991 - Introduced ATM facilities to its customers.</li><br><br>
 						<li>1999 - Opening of ABC Bank's 40th Branch in Nugegoda.</li><br><br>
 						<li>2000 - Won the Best Bank in Sri Lanka award.</li><br><br>
-						<li>2001 - Online Banking was launched</li><br><br>
+			</div>
+		</div>
+		<div class="history">	
+			<div class="history-ul">			
+				<ul><h4><li>2001 - Online Banking was launched</li><br><br>
 						<li>2005 - Opened 150th branch at Kegalle.</li><br><br>
 						<li>2010 - Became the first Sri Lankan bank to be ranked among the ‘Top 100 Banks in the World’</li><br><br>
 						<li>2012 - Installation of 450th ATM at the pettah Railway Station.</li><br><br>
@@ -308,6 +313,7 @@ include_once 'header.php'
 						<li>2020 - Launched fully-automated cheque deposit machine at City Office Branch in fork Street Colombo 05.</li><br><br>
 						<li>2022 - Celebrating the 75th Anniversary.</li></h4></ul></span></p>
 			</div>			
+		</div>
         </body>
 
     <?php

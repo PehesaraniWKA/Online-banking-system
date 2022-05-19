@@ -91,6 +91,10 @@
     text-align: center;
 }
 
+.history {
+	float: left;
+}
+
 .history-ul {
-    padding: 0 600px;
+    padding: 0 120px;
 }
