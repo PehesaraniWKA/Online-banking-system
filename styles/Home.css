@@ -479,7 +479,7 @@ section#bottom {
 /*footer*/
 
 .bottom {
-    height: 350px;
+    height: 300px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -493,8 +493,10 @@ section#bottom {
 
 .bottom .flex {
     display: flex;
+    margin-top: 40px;
     margin-bottom: 20px;
-    gap: 100px;
+    margin-left: 70px;
+    gap: 50px;
 }
 
 .bottom .flex .inputBox {
@@ -507,8 +509,7 @@ section#bottom {
     font: size 0.5em;
     display: block;
     margin-top: 15px;
-    font-size: 17px;
-    color: var(--black);
+    font-size: 15px;
 }
 
 .bottom .flex .inputBox .img {

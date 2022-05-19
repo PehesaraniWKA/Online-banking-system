@@ -3,9 +3,10 @@
         <!--Footer-->
         <section class="bottom">
             <footer>
+                
                 <div class="flex">
                     <div class="inputBox">
-                        <img src="" alt="QR code" width="500px" height="300px"></br>
+                    <h3><img src="" alt="QR code" width="500px" height="300px"></br></h3>
                         <span>Scan for mobile application</span>
                     </div>
                     <div class="inputBox">	    
@@ -39,6 +40,7 @@
                     </footer>
         </section>
                 <center>
+                <hr style="width:100%">
                     <div class="bottemtext">
                     <p><marquee>2022 ABC Bannk PLC.ALL Rights Reserved|Customer Charter & Disclaimer|Solution by:NamsriSolution</marquee></p>
                     </div>
