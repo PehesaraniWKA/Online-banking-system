@@ -12,6 +12,7 @@ session_start();
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="styles/financialCalculators.css">
     <link rel="stylesheet" href="styles/about us.css">
+    <link rel="stylesheet" href="styles/loan and leasing.css">
 	
     
     
@@ -62,7 +63,7 @@ session_start();
         <div id="mySidebar" class="sidebar">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <a href="account.php">Accounts</a>
-            <a href="#">Loan&Leasing</a>
+            <a href="loan and leasing.php">Loan&Leasing</a>
             <a href="#">E-banking</a>
             <a href="#">Promotion</a>
             <a href="Financial calculators.php">Financial Calculators</a>

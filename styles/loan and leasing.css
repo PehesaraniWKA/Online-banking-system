@@ -1,0 +1,56 @@
+.container-lole {
+    padding: 0 8px;
+}
+
+.column-lole {
+    float: left;
+    width: 49%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+.card-lole {
+    transition: box-shadow .3s;
+    margin: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background: #fff;
+    float: left;
+}
+
+.card-lole:hover {
+    box-shadow: 0 0 20px rgba(33, 33, 33, .2);
+}
+
+.title-lole {
+    text-align: justify;
+}
+
+ul.ulist {
+    color: grey;
+    padding: 26px;
+}
+
+.loan-ul {
+    float: left;
+    padding: 0 100px;
+}
+
+table.ploan th,
+table.ploan td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.container-lole2 {
+    padding: 10px 500px;
+}
