@@ -55,13 +55,18 @@ body {
 
 .signup-form form .flex .inputBox .box {
     width: 75%;
-    border: 2px solid #5a5959;
+    border: 2px solid #8d8d8d;
     border-radius: 25px;
     padding: 2px 20px;
     font-size: 15px;
-    font-display: swap;
     color: #000000;
+    outline: none;
     margin-top: 10px;
+    transition: .3s;
+}
+
+.signup-form form .flex .inputBox .box:hover {
+    border: 2px solid #2db4b4;
 }
 
 .signup-form form h3 {
@@ -80,13 +85,17 @@ body {
     width: 200px;
     text-align: center;
     border: none;
-    background: #52D6F4;
+    background: #41adc5;
     outline: none;
-    border-radius: 30px;
+    border-radius: 10px;
     font-size: 1.2rem;
     color: #f6f6f6;
     cursor: pointer;
     transition: .3s;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
 .btn:hover {
@@ -106,9 +115,9 @@ body {
     width: 100px;
     text-align: center;
     border: none;
-    background: #52D6F4;
+    background: #2b7585;
     outline: none;
-    border-radius: 30px;
+    border-radius: 15px;
     font-size: 1.2rem;
     color: #f6f6f6;
     cursor: pointer;
