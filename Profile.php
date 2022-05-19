@@ -26,15 +26,21 @@ include_once 'header.php'
 <?php echo "<p align='center'> <img src=uploadedimage/".$_SESSION['userimg']." alt='Avatar' class='profile-img'></p>"; ?>
         <section class="userprofile">
             <div class="proali">
-                <div class="outputBox">
-                    <span>User name : <?php echo $_SESSION["username"]; ?></span>
-                    <span>NIC :<?php echo $_SESSION["usernic"]; ?></span>
-                    <span>Home Address :<?php echo $_SESSION["useraddr"]; ?></span>
+            <div class="outputBox">
+                    <span>Full Name : </span>
+                        <p class="box"><?php echo $_SESSION["username"]; ?></p>
+                    <span>NIC :</span>
+                        <p class="box"> <?php echo $_SESSION["usernic"]; ?></p>
+                    <span>Home Address :</span>
+                        <p class="box"><?php echo $_SESSION["useraddr"]; ?></p>
                 </div>    
                 <div class="outputBox">    
-                    <span>Mobile Number :<?php echo $_SESSION["userphone"]; ?></span>
-                    <span>Email Address :<?php echo $_SESSION["useremail"]; ?></span>
-                    <span>Special Notes :<?php echo $_SESSION["usernote"] ; ?></span>
+                    <span>Mobile Number :</span>
+                        <p class="box"><?php echo $_SESSION["userphone"]; ?></p>
+                    <span>Email Address :</span>
+                        <p class="box"><?php echo $_SESSION["useremail"]; ?></p>
+                    <span>Special Notes :</span>
+                        <textarea disabled rows="2" cols="50" class="boxnote"><?php echo $_SESSION["usernote"] ; ?></textarea>
                 </div>     
             </div>     
         </section>

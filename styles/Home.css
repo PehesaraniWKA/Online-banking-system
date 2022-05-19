@@ -1,20 +1,16 @@
 /*Login button*/
 
 .loginbt {
-    padding: 7px 21px;
+    padding: 4px 3px;
     text-align: center;
     border: none;
     background: #2196F3;
     outline: none;
-    border-radius: 10px;
+    border-radius: 5px;
     font-size: 14px;
     color: #f6f6f6;
     cursor: pointer;
     transition: .3s;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
 }
 
 .loginbt:hover {
@@ -32,8 +28,8 @@
 
 .avatar {
     align-self: center;
-    width: 81px;
-    height: 59px;
+    width: 46px;
+    height: 42px;
     border-radius: 50%;
 }
 
@@ -529,31 +525,60 @@ section#bottom {
 }
 
 .profile .userprofile {
-    height: 350px;
+    min-height: 60vh;
+    position: static;
     width: 100%;
-    background: #c1aee5;
+    background: linear-gradient(to right, #b0e4f0, #f6f6f6, #c8ecf5);
     display: flex;
-    padding: 10px;
-    color: #f6f6f6;
+    align-items: center;
+    justify-content: center;
+    padding: 120px;
 }
 
 .profile .userprofile .proali {
     display: flex;
+    justify-content: space-between;
     margin-bottom: 20px;
-    gap: 250px;
+    gap: 500px;
 }
 
 .profile .userprofile .proali .outputBox {
-    width: 100%;
+    width: 49%;
 }
 
 .profile .userprofile .proali .outputBox span {
-    font: size 0.5em;
-    display: block;
+    text-align: left;
+    position: static;
     margin-top: 15px;
-    margin-left: 120px;
-    margin-right: 20px;
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    color: rgb(47, 57, 55);
+}
+
+.profile .userprofile .proali .outputBox .box {
+    width: 100%;
+    position: static;
+    border-radius: 5px;
+    background: #48767e;
+    padding: 12px 14px;
     font-size: 20px;
+    font-family: sans-serif;
+    color: #bbb;
+    margin-top: 10px;
+}
+
+.profile .userprofile .proali .outputBox .boxnote {
+    height: 100px;
+    position: static;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #48767e;
+    padding: 12px 14px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #bbb;
+    margin-top: 10px;
 }
 
 
@@ -582,6 +607,10 @@ section#bottom {
 
 .bottom .flex .inputBox {
     width: 100%;
+}
+
+.bottom .flex .inputBox a {
+    text-decoration: none;
 }
 
 .bottom .flex .inputBox span {

@@ -28,7 +28,7 @@ include_once 'header.php'
         <hr style="width:100%">
         <?php
             if(isset($_SESSION["useruid"])) {
-                echo "<p align='center' style='font-size:20px; font-weight:bold font-color;'>Hello there " .$_SESSION["useruid"]. "</p>";
+                echo "<p align='center'>Hello there " .$_SESSION["useruid"]. "</p>";
             }
             
             ?>

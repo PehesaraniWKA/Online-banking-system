@@ -40,7 +40,7 @@ session_start();
             else {
                 echo "<div align='right'>
                 <!--Login button-->
-                <button class='loginbt' type='button'><a href ='Login.php'>Login</a></button>
+                <button class='loginbt' type='button'><a href ='Login.php'>Log in</a></button>
             </div>"; 
             }
             ?>
