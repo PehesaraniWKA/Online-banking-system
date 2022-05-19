@@ -476,6 +476,87 @@ section#bottom {
 }
 
 
+/* use profile */
+
+.profile .userprofile {
+    height: 35px;
+    width: 1400px;
+    display: flex;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px #585a5bae;
+    background: #363538;
+    color: #f6f6f6;
+}
+
+.profile .userprofile .profile-img {
+    height: 35px;
+    width: 140px;
+}
+
+.profile .userprofile .proali {
+    display: flex;
+    margin-bottom: 20px;
+    gap: 50px;
+}
+
+.profile .userprofile .proali .outputBox {
+    width: 100%;
+}
+
+.profile .userprofile .proali .outputBox span {
+    cursor: default;
+    font: size 0.5em;
+    display: block;
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 17px;
+    color: var(--black);
+}
+
+
+/* use profile */
+
+
+/* use profile */
+
+.profile .profile-img {
+    height: 200px;
+    width: 200p;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 5px;
+}
+
+.profile .userprofile {
+    height: 350px;
+    width: 100%;
+    background: #c1aee5;
+    display: flex;
+    padding: 10px;
+    color: #f6f6f6;
+}
+
+.profile .userprofile .proali {
+    display: flex;
+    margin-bottom: 20px;
+    gap: 250px;
+}
+
+.profile .userprofile .proali .outputBox {
+    width: 100%;
+}
+
+.profile .userprofile .proali .outputBox span {
+    font: size 0.5em;
+    display: block;
+    margin-top: 15px;
+    margin-left: 120px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+
 /*footer*/
 
 .bottom {

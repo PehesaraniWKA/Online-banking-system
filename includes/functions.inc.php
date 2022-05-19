@@ -135,6 +135,12 @@ function loginUser($conn, $username, $pwd) {
         $_SESSION["userid"] = $uidExists["usersId"];
         $_SESSION["useruid"] = $uidExists["usersUid"];
         $_SESSION["userimg"] = $uidExists["usersIMG"];
+        $_SESSION["username"] = $uidExists["usersName"];
+        $_SESSION["usernic"] = $uidExists["userdNIC"];
+        $_SESSION["useraddr"] = $uidExists["usersAddress"];
+        $_SESSION["userphone"] = $uidExists["usersPhone"];
+        $_SESSION["useremail"] = $uidExists["usersEmail"];
+        $_SESSION["usernote"] = $uidExists["usersNote"];
 
 
         header("location: ../Home.php");
