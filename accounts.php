@@ -40,7 +40,7 @@ include_once 'header.php'
             <div class="account">
                 <img src="images/img_snow.jpg" alt="Avatar" style="width:100%">
                 <div class="acc-container">
-                <p><a href="savingAccounts.php" target= new><button class="calbutton">Saving Accounts</button></a></p>
+                <p><a href="savingsAccounts.php"><button class="calbutton">Saving Accounts</button></a></p>
                 </div>
             </div>
         </div>
@@ -48,7 +48,7 @@ include_once 'header.php'
             <div class="account">
                 <img src="images/img_forest.jpg" alt="Avatar" style="width:100%">
                 <div class="acc-container">
-                    <p>Current Accounts</p> 
+                <p><a href="currentAccounts.php"><button class="calbutton">Current Accounts</button></a></p>
                 </div>
             </div>
         </div>
