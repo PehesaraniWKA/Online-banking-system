@@ -6,7 +6,7 @@ include_once 'header.php'
 ?>
 
 <head>
-<link rel="stylesheet" href="styles/account.css">
+<link rel="stylesheet" href="styles/accounts.css">
 </head>
 <body>
         <!--Navigation bar-->

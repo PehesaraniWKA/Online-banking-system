@@ -1,0 +1,61 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.a-row{
+  margin-left: auto;
+  padding-left: 10px;
+}
+
+.a-column {
+  float: left;
+  width: 45%;
+  margin: 16px;
+  padding: 0 20px;
+}
+
+@media screen and (max-width: 650px) {
+  .a-column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.account {
+  padding: 0 16px;
+  margin: auto;
+}
+
+.account::after, .a-row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
