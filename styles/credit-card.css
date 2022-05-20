@@ -47,3 +47,28 @@ span {
   h2 {
     text-align: center;
   }
+
+.apply-btn{
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #8D8C8A;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.apply-btn:hover {
+  background-color: #408697
+}
+
+.apply-btn:active {
+  background-color: #52D6F4;
+  box-shadow: 0 5px #8D8C8A;
+  transform: translateY(4px);
+}
