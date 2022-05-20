@@ -60,6 +60,7 @@ session_start();
                 <a href="loan and leasing.php">Loan&Leasing</a>
                 <a href="payment.php">E-banking</a>
                 <a href="#">Promotion</a>
+                <a href="cards.php">Cards</a>
                 <a href="Financial calculators.php">Financial Calculators</a>
                 <br><br><br> <br><br><br> <br><br><br> <br><br><br> <br><br><br>
 
