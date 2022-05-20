@@ -1,19 +1,19 @@
-
 <?php
-include_once 'header.php'
+    include_once 'header.php'
 ?>
+
 <!--Navigation bar-->
-<div class="mainnav">
+    <div class="mainnav">
             <a class="openbtn" onclick="openNav()">&#9776; Services</a>
             <a class="active" href="Home.php">Home</a>
-            <?php
+        <?php
             if(isset($_SESSION["useruid"])) {
                 echo "<a href='Profile.php'>Profile</a>";
             }
             else {
                 echo "<a href='Register intro.php'>Register</a>"; 
             }
-            ?>
+        ?>
             <a href="#contact">Contact us</a>
             <a  href="about us.php">About us</a>
             <div class="search-container">
@@ -25,24 +25,23 @@ include_once 'header.php'
         </div>
         <body>
             <!--Horizontal line-->
-        <hr style="width:100%">
-        <?php
-            if(isset($_SESSION["useruid"])) {
-                echo "<p align='center'>Hello there " .$_SESSION["useruid"]. "</p>";
-            }
+            <hr style="width:100%">
+            <?php
+                if(isset($_SESSION["useruid"])) {
+                    echo "<p align='center'>Hello there " .$_SESSION["useruid"]. "</p>";
+                }
             
             ?>
         </body>
-    
-          
+
 <?php
-include_once 'slide show.php'
+    include_once 'slide show.php'
 ?>            
 
 <?php
-include_once 'footer.php'
+    include_once 'footer.php'
 ?>   
 
 <?php
-include_once 'chatbot3.php'
+    include_once 'chatbot3.php'
 ?>           
