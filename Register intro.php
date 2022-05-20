@@ -20,9 +20,9 @@ include_once 'header.php'
 <?php
 include_once 'slide show.php'
 ?>            
-        <p align="center" style="font-size:20px; font-weight:bold; font-color:"><input type="checkbox" class="inputStyle" id="checkBox" onclick="enableButton()" /> Accept privacy policy and terms</p>
-        <p align="center" style="font-size:15px; font-weight:bold; font-color:" class="p"><a href = "regform/Pricacy statement.pdf" download>Download Privacy statement</a></p>
-        <p align="center" style="font-size:20px; font-weight:bold; font-color:">Click Register for Registration Form
+        <p align="center" style="font-size:20px; font-weight:bold; color:"><input type="checkbox" class="inputStyle" id="checkBox" onclick="enableButton()" /> Accept privacy policy and terms</p>
+        <p align="center" style="font-size:15px; font-weight:bold; color:" class="p"><a href = "regform/Pricacy statement.pdf" download>Download Privacy statement</a></p>
+        <p align="center" style="font-size:20px; font-weight:bold; color:">Click Register for Registration Form
         <button class="registbt"  type="button" id="regbtn" disbled><a href =Register.php>Register</button></p></a>
         
 

@@ -633,3 +633,30 @@ section#bottom {
     color: #eee;
     background: #363538;
 }
+
+
+/* welcome message */
+
+.welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome p {
+    font-size: 25px;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-weight: bolder;
+    font-style: italic;
+    width: 17%;
+    background: linear-gradient(to right, #408697, #03b8bf, #016266);
+    box-shadow: -8px 7px 20px 5px rgb(108 153 156 / 71%);
+    color: #fde3b4;
+    border-radius: 10px;
+    cursor: none;
+    transition: .3s;
+}
+
+.welcome p:hover {
+    transform: translateY(-5px);
+}

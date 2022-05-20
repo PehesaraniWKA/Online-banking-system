@@ -16,10 +16,10 @@
 			<?php
 			if (isset($_GET["error"])) {
 				if ($_GET["error"] == "emptyinput") {
-					echo "<p>Fill in all fields!</p>";
+					echo "<p align='center' style='font-size:20px; font-weight:bold; color:red'>Fill in all fields!</p>";
 				}
 				elseif ($_GET["error"] == "wronglogin") {
-					echo "<p>Incorrect login information!</p>";
+					echo "<p align='center' style='font-size:20px; font-weight:bold; color:red'>Incorrect login information!!!</p>";
 				}
 			}
 			?>
