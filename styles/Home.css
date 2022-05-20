@@ -474,48 +474,6 @@ section#bottom {
 
 /* use profile */
 
-.profile .userprofile {
-    height: 35px;
-    width: 1400px;
-    display: flex;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 5px 0px #585a5bae;
-    background: #363538;
-    color: #f6f6f6;
-}
-
-.profile .userprofile .profile-img {
-    height: 35px;
-    width: 140px;
-}
-
-.profile .userprofile .proali {
-    display: flex;
-    margin-bottom: 20px;
-    gap: 50px;
-}
-
-.profile .userprofile .proali .outputBox {
-    width: 100%;
-}
-
-.profile .userprofile .proali .outputBox span {
-    cursor: default;
-    font: size 0.5em;
-    display: block;
-    margin-top: 15px;
-    margin-left: 10px;
-    font-size: 17px;
-    color: var(--black);
-}
-
-
-/* use profile */
-
-
-/* use profile */
-
 .profile .profile-img {
     height: 200px;
     width: 200p;
@@ -532,7 +490,7 @@ section#bottom {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 120px;
+    padding: 14px;
 }
 
 .profile .userprofile .proali {
@@ -560,12 +518,13 @@ section#bottom {
     width: 100%;
     position: static;
     border-radius: 5px;
-    background: #48767e;
+    background: #e2f1f4;
     padding: 12px 14px;
     font-size: 20px;
     font-family: sans-serif;
-    color: #bbb;
+    color: #787373;
     margin-top: 10px;
+    cursor: none;
 }
 
 .profile .userprofile .proali .outputBox .boxnote {
@@ -573,11 +532,11 @@ section#bottom {
     position: static;
     width: 100%;
     border-radius: 5px;
-    background-color: #48767e;
+    background-color: #e2f1f4;
     padding: 12px 14px;
     font-size: 20px;
     font-family: sans-serif;
-    color: #bbb;
+    color: #787373;
     margin-top: 10px;
 }
 
@@ -648,9 +607,9 @@ section#bottom {
     font-family: Copperplate, Papyrus, fantasy;
     font-weight: bolder;
     font-style: italic;
-    width: 17%;
-    background: linear-gradient(to right, #408697, #03b8bf, #016266);
-    box-shadow: -8px 7px 20px 5px rgb(108 153 156 / 71%);
+    width: 16%;
+    background: linear-gradient(to right, #a1e1f0, #03b8bf, #016266);
+    box-shadow: -8px 7px 20px 5px rgba(89, 136, 139, 0.71);
     color: #fde3b4;
     border-radius: 10px;
     cursor: none;
