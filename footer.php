@@ -5,7 +5,7 @@
                 <footer>
                     <div class="flex">
                         <div class="inputBox">
-                            <h3><img src="" alt="QR code" width="500px" height="300px"></br></h3>
+                            <h3><img src="images/qr_code_PNG38.png" alt="QR code" width="100px" height="100px"></br></h3>
                             <span>Scan for mobile application</span>
                         </div>
                         <div class="inputBox">	    
@@ -21,20 +21,17 @@
                         <div class="inputBox"> 
                             <h3>Get in touch</h3>
                             <span>Address: No.90/A, Flower road, Colombo 7</span>
-                            <span> Emails: <a href="" id="footerlink">info@abcbank.lk</a></span>
-                            <span> Fax: <a href="" id="footerlink">+94658741235</a></span>
-                            <span> Call us: <a href="" id="footerlink">+94754123624</a></span>
+                            <span> Emails: <a href="">info@abcbank.lk</a></span>
+                            <span> Fax: <a href="" >+94658741235</a></span>
+                            <span> Call us: <a href="">+94754123624</a></span>
                         </div>     
                         <div class="inputBox">     
                             <h3>Find us</h3>
-                            <p><img src="images/img_snow.jpg" alt="Snow" class="img"></p>
-                            <p><img src="images/img_forest.jpg" alt="Forest" class="img"></p>
-                            <p><img src="images/img_mountains.jpg" alt="Mountains" class="img"></p>
+                            <p><img src="images/map.png" alt="Snow" class="img"></p>
                         </div>     
                         <div class="inputBox">     
                             <h3>Call us</h3>
-                            <p><img src="images/Search icon.jpg" alt="Call icon" class="img"></p>
-                            <span>1616</span>
+                            <p><img src="images/phone.png" alt="Call icon" class="imgphone">1616</p>
                         </div>
                     </div>    
                 </footer>
