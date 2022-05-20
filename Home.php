@@ -14,7 +14,7 @@
                 echo "<a href='Register intro.php'>Register</a>"; 
             }
         ?>
-            <a href="#contact">Contact us</a>
+            <a href="contactus.php">Contact us</a>
             <a  href="about us.php">About us</a>
             <div class="search-container">
                 <form action="/action_page.php">
