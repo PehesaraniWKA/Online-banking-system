@@ -82,13 +82,13 @@ session_start();
 
         <!--Credit cards-->
 
-        <h2> Credit Cards </h2>
+        <h2> Credit Cards </h2><br>
         <h4> For whom: Sri lankan citizens between the age of 18-65(For non-nationals: cards can be issued against a foreign country deposit)</h4>
-
+        <br>
         <div class="div-column">
             <p>ABC Bank is issuing two types of credit cards joining hands with word's biggest card industry service provides under the brands of "VISA" and "mastercard". Customer is given the oppotunity for choose the prefered brand and even both products can be issued for one customer on request. )Fees will be applied for both cards) </p>   
-        
-            <h4>Special benifits : </h4>
+                <br>
+            <h4>Special benifits : </h4><br>
             <ul>
                 <li>Purchases: 100% of the credit limit</li>
                 <li>Cash advances: 50% of the credit limit</li>
@@ -96,9 +96,9 @@ session_start();
         <br>
         
         <h3> Onine Application form </h3> <span>&#8594;</span>
-        <button id="btn-apply" class="apply-btn" >Apply Now</button>
+        <center><button id="btn-apply" class="apply-btn" >Apply Now</button></center>
         <div>
-
+<br><br>
         <button type="button" class="collapsible">Card types</button>
         <div class="content">
             <ol>
