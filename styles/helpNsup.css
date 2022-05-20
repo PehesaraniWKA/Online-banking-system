@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2,h3{
+    text-align: center;
+}
+
+p{
+        padding: 20px;
+        text-align: center;
+}
+.helpNsup-lastpara {
+    text-align: left;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .helpNsup-nav a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 5px;
+  }
+  
+  .helpNsup-nav  a:hover {
+    background-color: #f6f6f6;
+    color: black;
+  }
+  
+  .helpNsup-nav  a.active {
+    background-color: #408697;
+    color: white;
+  }
+
+.form-Help-sup input[type=text]:focus 
+{
+    border-radius: 25px;
+    border: 3px solid #555;
+}
+
+.form-Help-sup input[type=email]:focus 
+{
+    border-radius: 25px;
+    border: 3px solid #555;
+}
+
+.form-Help-sup input[type=text], select {
+    border-radius: 25px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .form-Help-sup input[type=email]{
+    border-radius: 25px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+.form-Help-sup input[type=submit] {
+    background-color: #408697;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+.form-Help-sup input[type=submit]:hover {
+    background-color: #363538;
+  }
+
+  .form-Help-sup  {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    max-width:800px;
+    margin:auto;
+  }
