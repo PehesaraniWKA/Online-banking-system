@@ -5,7 +5,7 @@
                 <footer>
                     <div class="flex">
                         <div class="inputBox">
-                            <h3><img src="images/qr_code_PNG38.png" alt="QR code" width="100px" height="100px"></br></h3>
+                            <h3><img src="images/qr.png" alt="QR code" width="100px" height="100px"></br></h3>
                             <span>Scan for mobile application</span>
                         </div>
                         <div class="inputBox">	    
