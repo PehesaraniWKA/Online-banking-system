@@ -3,7 +3,7 @@
 $serverName ="localhost";
 $dBUsername ="root";
 $dBPassword ="";
-$dBName ="banklogin";
+$dBName ="abc_bank";
 
 //connection with database
 $conn = mysqli_connect($serverName,$dBUsername,$dBPassword,$dBName);

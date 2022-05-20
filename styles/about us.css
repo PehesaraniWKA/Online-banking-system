@@ -3,10 +3,10 @@
 }
 
 .intro img {
-    position: relative;
+    position: static;
     top: 3px;
     left: 200px;
-    width: 80%;
+    width: 100%;
 }
 
 .about-section {
@@ -92,7 +92,7 @@
 }
 
 .history {
-	float: left;
+    float: left;
 }
 
 .history-ul {
