@@ -37,6 +37,11 @@
     <!--Horizontal line-->
     <hr style="width:100%"> 
 
+     <!--Slide show-->
+     <?php
+        include_once 'slide show.php'
+    ?>
+
     <!--Saving Accounts cards-->
     <div class="saving-container">
         
