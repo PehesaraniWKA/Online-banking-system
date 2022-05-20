@@ -58,7 +58,7 @@ session_start();
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                 <a href="accounts.php">Accounts</a>
                 <a href="loan and leasing.php">Loan&Leasing</a>
-                <a href="#">E-banking</a>
+                <a href="payment.php">E-banking</a>
                 <a href="#">Promotion</a>
                 <a href="Financial calculators.php">Financial Calculators</a>
                 <br><br><br> <br><br><br> <br><br><br> <br><br><br> <br><br><br>
