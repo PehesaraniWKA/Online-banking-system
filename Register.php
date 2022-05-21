@@ -3,7 +3,6 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="styles/register.css">
 	<title>ABC Bank User Login</title>
 </head>
@@ -64,7 +63,7 @@
 			<p  align="center">	
 				<button class="btn" type="button"><a href="Login.php">Login Now</a></button>
 			</p>
-				<button class="btnback" type="button"><a href ="Register intro.php">Back</a><button>
+				<button class="btnback" type="button"><a href ="Register intro.php">Back</a></button>
 		</form>	
 	</section>
 	<div class="pwbox">
