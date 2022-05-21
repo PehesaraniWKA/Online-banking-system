@@ -44,6 +44,22 @@ span {
     background-color: #f1f1f1;
   }
 
-  h2 {
+  h1 {
     text-align: center;
+  }
+
+  .column-devide-image {
+    float: left;
+    width: 50%;
+  }
+
+  .column-devide {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .for-whome-box {
+    width: 100%px;
+    border: 5px solid #408697;
   }
