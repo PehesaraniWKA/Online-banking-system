@@ -92,7 +92,7 @@
         <br>
         
         <h3> Onine Application form </h3> <span>&#8594;</span>
-        <center><button id="btn-apply" class="apply-btn" >Apply Now</button></center>
+        <center><a href="form-apply.php" button id="btn-apply" class="apply-btn">Apply Now</button></a></center>
         <div>
 <br><br>
         <button type="button" class="collapsible">Card types</button>
@@ -177,7 +177,7 @@
     <?php
     include_once 'footer.php';
     ?> 
-    <script type="text/javascript" src="js files/credit-card.js"></script> 
+    <script type="text/javascript" src="jsfiles/credit-card.js"></script> 
 </body>
 
 </html>
