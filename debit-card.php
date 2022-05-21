@@ -95,8 +95,8 @@
         <button type="button" class="collapsible">Card types</button>
         <div class="content">
             <ol>
-                <li>Classic Cards (Visa/Mastercards)</li>
-                 <h5>Features:</h5>
+                <h3><li>Classic Cards (Visa/Mastercards)</li></h3><br>
+                 <h3>Features:</h3>
                  <ul>
                     <li>Credit limit : from 100000-199999</li>
                     <li>Seasonal DIscounts & Offers</li>
@@ -104,8 +104,8 @@
                     <li>24 hours customer service</li>
                     <li>Interest free credit period days</li>
                  </ul>
-                <li>Gold cards (Visa/Mastercards)</li>
-                <h5>Features:</h5>
+                <h3><li>Gold cards (Visa/Mastercards)</li></h3><br>
+                <h3>Features:</h3>
                  <ul>
                     <li>Credit limit : from 100000-199999</li>
                     <li>Seasonal DIscounts & Offers</li>
@@ -113,8 +113,8 @@
                     <li>24 hours customer service</li>
                     <li>Interest free credit period days</li>
                  </ul>
-                <li>Platinum cards</li>
-                <h5>Features:</h5>
+                <h3><li>Platinum cards</li></h3><br>
+                <h3>Features:</h3>
                  <ul>
                     <li>Credit limit : from 100000-199999</li>
                     <li>Seasonal DIscounts & Offers</li>
@@ -122,8 +122,8 @@
                     <li>24 hours customer service</li>
                     <li>Interest free credit period days</li>
                  </ul>
-                <li>Signature cards (Visa)</li>
-                <h5>Features:</h5>
+                <h3><li>Signature cards (Visa)</li><h3><br>
+                <h3>Features:</h3>
                  <ul>
                     <li>Credit limit : from 100000-199999</li>
                     <li>Seasonal DIscounts & Offers</li>
@@ -136,20 +136,20 @@
         <button type="button" class="collapsible">Card offers</button>
         <div class="content">
         <ol>
-                <li>Online stores</li>
+                <h3><li>Online stores</li><h3><br>
                  <div class="column-collapsible">
                     <img src="images/kapruka.png"><br>
                     <br>
                     <img src="images/Darazn.jpg"><br>
                  </div>
-                <li>Super markets</li>
+                <h3><li>Super markets</li></h3><br>
                 <div class="column-collapsible">
                     <img src="images/foodcity.jpg"><br>
                     <br>
                     <img src="images/keels.jpg"><br>
 
                  </div>
-                <li>Home care and electronics</li>
+                <h3><li>Home care and electronics</li></h3><br>
                 <div class="column-collapsible">
                     <img src="images/Abans.jpg"><br>
                     <br>
