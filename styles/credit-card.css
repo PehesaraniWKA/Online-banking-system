@@ -7,18 +7,17 @@
 }
 
 
-div-column {
-    float: left;
-    padding: 10px;
-    height: 2000px;
-    display: flex;
-    flex-direction: column;
+.div-column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px;
     
 }
-
-
-span { 
-    font-size:100px;
+.div-row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .collapsible {
@@ -44,7 +43,7 @@ span {
     background-color: #f1f1f1;
   }
 
-  h2 {
+  h1 {
     text-align: center;
   }
 
@@ -72,3 +71,4 @@ span {
   box-shadow: 0 5px #8D8C8A;
   transform: translateY(4px);
 }
+
