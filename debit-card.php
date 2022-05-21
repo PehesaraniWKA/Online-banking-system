@@ -49,6 +49,7 @@
             <a href="#">Loan&Leasing</a>
             <a href="#">E-banking</a>
             <a href="#">Promotion</a>
+            <a href="cards.php">Cards</a>
             <br><br><br> <br><br><br> <br><br><br> <br><br><br> <br><br><br>
 
             <!--Calender-->
@@ -77,8 +78,8 @@
 
         <!--Debit cards-->
 
-        <h2> Debit Cards </h2><br>
-        <h4> For whom: Sri lankan citizens between the age of 18-65(For non-nationals: cards can be issued against a foreign country deposit)</h4>
+        <h1> Debit Cards </h1><br>
+        <h3> For whom:</h3><h4> Sri lankan citizens between the age of 18-65(For non-nationals: cards can be issued against a foreign country deposit)</h4>
         <br>
         <p>ABC Visa Debit Card is available to any ABC Bank customer with a savings, current, NRFC, individual/join or proprietorship account. If you have any of these accounts, you are eligible for a PET card which can be used locally and internationally that accept visa cards </p>
 
