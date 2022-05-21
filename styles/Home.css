@@ -645,3 +645,17 @@ section#bottom {
 .welcome p:hover {
     transform: translateY(-5px);
 }
+
+
+/*search*/
+
+.article-container {
+    width: 900px;
+    background-color: #fff;
+    padding: 30px;
+}
+
+.article-box {
+    padding-bottom: 30px;
+    width: 100%;
+}
