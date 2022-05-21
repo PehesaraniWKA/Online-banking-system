@@ -3,24 +3,23 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="styles/payment.css"> <!-- css sheet/payment-->
-
 </head>
 
-<body class = "payment">
-  
- <!--php hedder-->
-<?php
-include_once 'header.php'
-?>
+<body>
+
+    
+    <script src="js files/popuppayment.js"></script>
+        <div class = "bgpayment">  
+        <div class="popupwin">
 
 
-<!-- customer iformation form / billing information form/php tabal name-payment/-->
-<h2>Billing Information</h2>
+ <!-- customer iformation form / billing information form/php tabal name-payment/-->
 <div class="prow">
   <div class="col-75p">
    <div class="containerpay">
+    <h2>Billing Information</h2>
 
-   <form action="insert.php" method="post">  <!-- Php databass connection-->
+   <form action="includes/insert.php" method="post">  <!-- Php databass connection-->
       
 
          <!--page divaider (need to fix dinakara)-->
@@ -83,20 +82,27 @@ include_once 'header.php'
               <div class="col-50p">
                 <label class ="payla" for="cvv">CVV</label>
                 <input class ="payin" type="text" id="cvv" name="cvv" placeholder="134">
+
+                <input type="submit" value="Pay" class="btnpay">    <!--submit btn / fix php and databass issu by dinakara-->
+
               </div>
             </div>
           </div>
          </input>
         </div>
-        <input type="submit" value="Continue to checkout" class="btnpay">      <!--submit btn / fix php and databass issu by dinakara-->
+                                  
      </form> 
     </div>
   </div>
   
 </div>
-<?php
-include_once 'footer.php'
-?>   
+
+        </div>
+        
+    </div>
+
+
+    
 
 </body>
 </html>
