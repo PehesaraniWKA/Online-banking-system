@@ -12,7 +12,7 @@
 }
 
 .saving-container .acc-table {
-    width: 400px;
+    width: 300px;
     background: linear-gradient(to right,#408697,#f6f6f6,#52d6f4);
     border-radius: 24px;
     padding: 18px 0 8px 0;
@@ -41,12 +41,13 @@
 }
 
 .saving-container .features ul {
+    list-style: none;
     padding-bottom: 0;
 }
 
 .saving-container .features ul li {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 700;
     padding : 16px 35px;
     color: #001219;
