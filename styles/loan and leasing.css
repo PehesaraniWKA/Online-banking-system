@@ -37,17 +37,17 @@ ul.ulist {
     padding: 0 100px;
 }
 
-table.ploan th,
+.loantable table.ploan th,
 table.ploan td {
     border: 1px solid black;
     text-align: center;
 }
 
-tr:nth-child(even) {
+.loantable tr:nth-child(even) {
     background-color: #f2f2f2;
 }
 
-table {
+.loantable table {
     border-collapse: collapse;
 }
 

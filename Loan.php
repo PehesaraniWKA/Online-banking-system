@@ -65,7 +65,7 @@
 			<li>Pay slips and last 3 bank statement</li>
 			<li>utility bill</li>
 		</h4></ul><br>
-		
+		<section class="loantable">
 		<table class="ploan" style="width:75%">
 			<tr>
 				<th>Tenure</th>
@@ -116,6 +116,7 @@
 				<td>25.25</td>
 			</tr>
 		</table><br><br>
+		</section>
 	</div>	
 	 <!--Horizontal line-->
      <hr style="width:100%">
