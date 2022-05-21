@@ -110,11 +110,11 @@ session_start();
             <input type="text" name="fname" placeholder="First Name"> <br/><br/>
         <lable for="lname">Last Name :</lable>
             <input type="text" name="lname" placeholder="Last Name"> <br/><br/>
-        <lable for="fname">Mobile Number :</lable>
+        <lable for="mobileNum">Mobile Number :</lable>
             <input type="text" name="mobileNum" placeholder="Mobile Number"> <br/><br/>
-        <lable for="fname">Email Address :</lable>
+        <lable for="email">Email Address :</lable>
             <input type="email" name="email" required placeholder="Email"> <br/><br/>
-        <lable for="fname">NIC/PP Number :</lable>
+        <lable for="NIC/PP">NIC/PP Number :</lable>
             <input type="text" name="NIC/PP" required placeholder="NIC/PP"> <br/><br/>
         <lable for="product">Yor Product :</lable> 
         <select name="product">
