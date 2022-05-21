@@ -50,7 +50,6 @@
             <a href="#">Loan&Leasing</a>
             <a href="#">E-banking</a>
             <a href="#">Promotion</a>
-            <a href="cards.php">Cards</a>
             <br><br><br> <br><br><br> <br><br><br> <br><br><br> <br><br><br>
 
             <!--Calender-->
@@ -82,25 +81,29 @@
         <h1> Credit Cards </h1><br>
         <h3> For whom:</h3><h4> Sri lankan citizens between the age of 18-65(For non-nationals: cards can be issued against a foreign country deposit)</h4>
         <br>
-        <div class="div-column">
-            <p>ABC Bank is issuing two types of credit cards joining hands with word's biggest card industry service provides under the brands of "VISA" and "mastercard". Customer is given the oppotunity for choose the prefered brand and even both products can be issued for one customer on request. )Fees will be applied for both cards) </p>   
-                <br>
-            <h4>Special benifits : </h4><br>
-            <ul>
-                <li>Purchases: 100% of the credit limit</li>
-                <li>Cash advances: 50% of the credit limit</li>
-            </ul>
-        <br>
+        <div class="div-row">
+            <div class="div-column">
+                        <p>ABC Bank is issuing two types of credit cards joining hands with word's biggest card industry service provides under the brands of "VISA" and "mastercard". Customer is given the oppotunity for choose the prefered brand and even both products can be issued for one customer on request. )Fees will be applied for both cards) </p>   
+                            <br>
+                        <h4>Special benifits : </h4><br>
+                            <ul>
+                                <li>Purchases: 100% of the credit limit</li>
+                                <li>Cash advances: 50% of the credit limit</li>
+                            </ul>
+            </div>
+            <div class="div-column">
+                            <br>
         
-        <h3> Onine Application form </h3> <span>&#8594;</span>
-        <center><a href="form-apply.php" button id="btn-apply" class="apply-btn">Apply Now</button></a></center>
-        <div>
-<br><br>
+                        <h3> Onine Application form </h3><br>
+                        <a href="form-apply.php" button id="btn-apply" class="apply-btn">Apply Now</button></a></div>
+            </div>
+        </div>
+        <br><br>
         <button type="button" class="collapsible">Card types</button>
         <div class="content">
             <ol>
-                <li>Classic Cards (Visa/Mastercards)</li>
-                 <h5>Features:</h5>
+                <h3><li>Classic Cards (Visa/Mastercards)</li></h3><br>
+                 <h3>Features:</h3>
                  <ul>
                     <li>Credit limit : from 100000-199999</li>
                     <li>Seasonal DIscounts & Offers</li>
@@ -108,8 +111,8 @@
                     <li>24 hours customer service</li>
                     <li>Interest free credit period days</li>
                  </ul>
-                <li>Gold cards (Visa/Mastercards)</li>
-                <h5>Features:</h5>
+                <h3><li>Gold cards (Visa/Mastercards)</li></h3><br>
+                <h3>Features:</h3>
                  <ul>
                     <li>Credit limit : from 100000-199999</li>
                     <li>Seasonal DIscounts & Offers</li>
@@ -117,8 +120,8 @@
                     <li>24 hours customer service</li>
                     <li>Interest free credit period days</li>
                  </ul>
-                <li>Platinum cards</li>
-                <h5>Features:</h5>
+                <h3><li>Platinum cards</li></h3><br>
+                <h3>Features:</h3>
                  <ul>
                     <li>Credit limit : from 100000-199999</li>
                     <li>Seasonal DIscounts & Offers</li>
@@ -126,8 +129,8 @@
                     <li>24 hours customer service</li>
                     <li>Interest free credit period days</li>
                  </ul>
-                <li>Signature cards (Visa)</li>
-                <h5>Features:</h5>
+                <h3><li>Signature cards (Visa)</li><h3><br>
+                <h3>Features:</h3>
                  <ul>
                     <li>Credit limit : from 100000-199999</li>
                     <li>Seasonal DIscounts & Offers</li>
@@ -140,20 +143,20 @@
         <button type="button" class="collapsible">Card offers</button>
         <div class="content">
         <ol>
-                <li>Online stores</li>
+                <h3><li>Online stores</li><h3><br>
                  <div class="column-collapsible">
                     <img src="images/kapruka.png"><br>
                     <br>
                     <img src="images/Darazn.jpg"><br>
                  </div>
-                <li>Super markets</li>
+                <h3><li>Super markets</li></h3><br>
                 <div class="column-collapsible">
                     <img src="images/foodcity.jpg"><br>
                     <br>
                     <img src="images/keels.jpg"><br>
 
                  </div>
-                <li>Home care and electronics</li>
+                <h3><li>Home care and electronics</li></h3><br>
                 <div class="column-collapsible">
                     <img src="images/Abans.jpg"><br>
                     <br>
@@ -178,7 +181,7 @@
     <?php
     include_once 'footer.php';
     ?> 
-    <script type="text/javascript" src="jsfiles/credit-card.js"></script> 
+    <script type="text/javascript" src="js files/credit-card.js"></script> 
 </body>
 
 </html>
