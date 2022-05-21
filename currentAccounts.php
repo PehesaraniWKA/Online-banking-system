@@ -48,7 +48,7 @@
         
         <div class="current-table">
             <h3>ABC Business</h3>
-            <img src="images/img_forest.jpg" alt="Avatar" style="width:100%">
+            <img src="images/BwomenMen.jpg" alt="Avatar" style="width:100%">
             <P>Individuals</P>
             <p>(Business women or Business men)</p>
 
@@ -65,7 +65,7 @@
 
         <div class="current-table">
             <h3>Current Account Personal</h3>
-            <img src="images/img_forest.jpg" alt="Avatar" style="width:100%">
+            <img src="images/individuals.jpg" alt="Avatar" style="width:100%">
             <P>Individuals</P>
             <p>(Salaried)</p>
 

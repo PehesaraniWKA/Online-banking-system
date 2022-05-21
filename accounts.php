@@ -39,17 +39,17 @@ include_once 'header.php'
     <div class="a-row">
         <div class="a-column">
             <div class="account">
-                <img src="images/img_snow.jpg" alt="Avatar" style="width:100%">
+                <img src="images/Savings.jpg" alt="Avatar" style="width:100%">
                 <div class="acc-container">
-                <p><a href="savingsAccounts.php"><button class="calbutton">Saving Accounts</button></a></p>
+                <p><a href="savingsAccounts.php"><button class="button">Savings Accounts</button></a></p>
                 </div>
             </div>
         </div>
         <div class="a-column">
             <div class="account">
-                <img src="images/img_forest.jpg" alt="Avatar" style="width:100%">
+                <img src="images/Current.jpg" alt="Avatar" style="width:100%">
                 <div class="acc-container">
-                <p><a href="currentAccounts.php"><button class="calbutton">Current Accounts</button></a></p>
+                <p><a href="currentAccounts.php"><button class="button">Current Accounts</button></a></p>
                 </div>
             </div>
         </div>

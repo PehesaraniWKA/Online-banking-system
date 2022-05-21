@@ -2,7 +2,7 @@
     font-family: 'Times New Roman', Times, serif;
     display: flex;
     justify-content: center;
-    margin: 30px 0;
+    margin: 32px 0;
     align-items: flex-end;
 }
 
@@ -12,10 +12,10 @@
 }
 
 .saving-container .acc-table {
-    width: 300px;
+    width: 400px;
     background: linear-gradient(to right,#408697,#f6f6f6,#52d6f4);
     border-radius: 24px;
-    padding: 16px 0 8px 0;
+    padding: 18px 0 8px 0;
     margin: 0 16px;
     box-shadow: 0 10px 25px -3px rgba(0,0,0,0.2);
 }
@@ -28,7 +28,7 @@
 } 
 
 .saving-container p {
-    font-size: 20px;
+    font-size: 18px;
     color: #001219;
     padding: 0 25px;
     line-height: 1;
@@ -45,9 +45,10 @@
 }
 
 .saving-container .features ul li {
-    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
     font-weight: 700;
-    padding : 16px 32px;
+    padding : 16px 35px;
     color: #001219;
     transition: all 500em ease;
 }

@@ -48,7 +48,7 @@
         
         <div class="acc-table">
             <h3>Little One</h3>
-            <img src="images/img_forest.jpg" alt="Avatar" style="width:100%">
+            <img src="images/littleOne.jpg" alt="Avatar" style="width:100%">
             <P>Children from birth to 13 years old</P>
 
             <div class="features">
@@ -63,7 +63,7 @@
 
         <div class="acc-table">
             <h3>ABC Saving</h3>
-            <img src="images/img_forest.jpg" alt="Avatar" style="width:100%">
+            <img src="images/ABCsavings.jpg" alt="Avatar" style="width:100%">
             <P>For young adults of 18 years and above</P>
 
             <div class="features">
@@ -78,7 +78,7 @@
 
         <div class="acc-table">
             <h3>Senior Citizen</h3>
-            <img src="images/img_forest.jpg" alt="Avatar" style="width:100%">
+            <img src="images/seniorCitizen.jpg" alt="Avatar" style="width:100%">
             <P>Over the age of 60 years</P>
 
             <div class="features">
@@ -98,7 +98,7 @@
         
         <div class="acc-table">
             <h3>14+</h3>
-            <img src="images/img_forest.jpg" alt="Avatar" style="width:100%">
+            <img src="images/14+.jpg" alt="Avatar" style="width:100%">
             <P>Children from 14-18 years old</P>
 
             <div class="features">
@@ -113,7 +113,7 @@
 
         <div class="acc-table">
             <h3>Youth</h3>
-            <img src="images/img_forest.jpg" alt="Avatar" style="width:100%">
+            <img src="images/Youth.jpg" alt="Avatar" style="width:100%">
             <P>For young adults of 18 years and above</P>
 
             <div class="features">
@@ -128,7 +128,7 @@
         </div>
         <div class="acc-table">
             <h3>Women</h3>
-            <img src="images/img_forest.jpg" alt="Avatar" style="width:100%">
+            <img src="images/Women2.jpg" alt="Avatar" style="width:100%">
             <P>Women of 18 years old or above</P>
 
             <div class="features">
