@@ -31,7 +31,7 @@
                         </div>     
                         <div class="inputBox">     
                             <h3>Call us</h3>
-                            <p><img src="images/phone.png" alt="Call icon" class="imgphone">1616</p>
+                            <span><img src="images/phone.png" alt="Call icon" class="imgphone">1616</span>
                         </div>
                     </div>    
                 </footer>
