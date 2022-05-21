@@ -1,7 +1,3 @@
-<?php
-session_start();
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,12 +8,12 @@ session_start();
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/Home.css">
     <link rel="stylesheet" href="styles/debit-card.css">
+    
     <!-- Load icon library (get a search icon)-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
     <title>ABC Bank</title>
 </head>
-
 <body>
     <?php include_once ('header.php');
     ?>
@@ -81,18 +77,20 @@ session_start();
 
         <!--Debit cards-->
 
-        <h2> Credit Cards </h2>
+        <h2> Debit Cards </h2><br>
         <h4> For whom: Sri lankan citizens between the age of 18-65(For non-nationals: cards can be issued against a foreign country deposit)</h4>
+        <br>
         <p>ABC Visa Debit Card is available to any ABC Bank customer with a savings, current, NRFC, individual/join or proprietorship account. If you have any of these accounts, you are eligible for a PET card which can be used locally and internationally that accept visa cards </p>
 
 
-        <br><h3>Special Benifits : </h3>
+        <br><h3>Special Benifits : </h3><br>
         <ul>
             <li>Withdraw cash 365 days a year, 24 hours a day with over 2 million ATM's and purchase points at over 20 million merchant outlets worldwide </li>
             <li>Debit card daily cash withdrawal limit - 200000.00</li>
             <li>(Foreign currency transaction limit is equivalent to the above limits after conversation)</li>
         <ul>
         
+        <br><br>
         <button type="button" class="collapsible">Card types</button>
         <div class="content">
             <ol>
