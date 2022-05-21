@@ -5,7 +5,7 @@
     </head>
     <body>
         <div class="sticky">
-            <a href="inquaries.php">Help and support</a></div>
+            <a class="help-btn-link" href="inquaries.php">Help and support</a></div>
         </div>
     </body>
 </html>
