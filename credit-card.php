@@ -50,6 +50,7 @@
             <a href="#">Loan&Leasing</a>
             <a href="#">E-banking</a>
             <a href="#">Promotion</a>
+            <a href="cards.php">Cards</a>
             <br><br><br> <br><br><br> <br><br><br> <br><br><br> <br><br><br>
 
             <!--Calender-->
@@ -78,8 +79,8 @@
 
         <!--Credit cards-->
 
-        <h2> Credit Cards </h2><br>
-        <h4> For whom: Sri lankan citizens between the age of 18-65(For non-nationals: cards can be issued against a foreign country deposit)</h4>
+        <h1> Credit Cards </h1><br>
+        <h3> For whom:</h3><h4> Sri lankan citizens between the age of 18-65(For non-nationals: cards can be issued against a foreign country deposit)</h4>
         <br>
         <div class="div-column">
             <p>ABC Bank is issuing two types of credit cards joining hands with word's biggest card industry service provides under the brands of "VISA" and "mastercard". Customer is given the oppotunity for choose the prefered brand and even both products can be issued for one customer on request. )Fees will be applied for both cards) </p>   
