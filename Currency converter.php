@@ -22,6 +22,7 @@
                         <option value="gbp">British Pound</option>
                     </select><br><br>
                     <input class="form-btn" type="submit" name="sbmt" value="Convert" />
+                   
                     <?php 
                         if (isset ($_GET['sbmt']))
                         {
@@ -52,6 +53,7 @@
                         }
                     ?>
                 </form>
+                <a href="Financial calculators.php"><button class="form-btn">Exit</button></a>
         </div>
         
     </body>

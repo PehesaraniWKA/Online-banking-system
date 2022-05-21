@@ -76,3 +76,15 @@ section{
 .btn-0{
     grid-column: 1/3;
 }
+
+.sim{
+    background: #8d8c8d;
+    color: white;
+    border: none;
+    padding: 8px 32px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 900;
+    cursor: pointer;
+    margin: 24px 0;
+}
