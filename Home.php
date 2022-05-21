@@ -9,6 +9,7 @@
         <?php
             if(isset($_SESSION["useruid"])) {
                 echo "<a href='Profile.php'>Profile</a>";
+                echo "<a href='payment.php'>E-banking</a>";
             }
             else {
                 echo "<a href='Register intro.php'>Register</a>"; 

@@ -37,9 +37,7 @@
         <div id="mySidebar" class="sidebar">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <a href="account.php">Accounts</a>
-            <a href="#">Loan&Leasing</a>
-            <a href="#">E-banking</a>
-            <a href="#">Promotion</a>
+            <a href="loan and leasing.php">Loan&Leasing</a>
             <a href="cards.php">Cards</a>
             <br><br><br> <br><br><br> <br><br><br> <br><br><br> <br><br><br>
 
@@ -72,12 +70,6 @@
             <a class="openbtn" onclick="openNav()">&#9776; Services</a>
             
             <a class="active" href="#helpandsupport">Help and Support</a>
-            <div class="search-container">
-                <form action="/action_page.php">
-                    <input type="text" placeholder="Search.." name="search">
-                    <button type="submit"><i class="fa fa-search"></i></button>
-                </form>
-            </div>
         </div>
 
     <!--Nav bar-->

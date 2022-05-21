@@ -18,12 +18,13 @@
                 <?php
                 if(isset($_SESSION["useruid"])) {
                     echo "<a href='Profile.php'>Profile</a>";
+                    echo "<a href='payment.php'>E-banking</a>";
                 }
                 else {
                     echo "<a href='Register intro.php'>Register</a>"; 
                 }
                 ?>
-                <a href="#contact">Contact us</a>
+                <a href="contactus.php">Contact us</a>
                 <a  href="about us.php">About us</a>
                 <div class="search-container">
                     <form action="/action_page.php">

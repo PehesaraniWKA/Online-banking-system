@@ -25,11 +25,9 @@
             <?php
             if(isset($_SESSION["useruid"])) {
                 echo "<a href='Profile.php'>Profile</a>";
-                echo "<a href='includes/logout.inc.php'>Logout</a>";
             }
             else {
                 echo "<a href='Register intro.php'>Register</a>";
-                echo "<a href='Login.php'>Login</a>";
             }
             ?>
             <a href="contactus.php">Contact us</a>
