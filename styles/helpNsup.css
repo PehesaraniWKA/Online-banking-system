@@ -18,12 +18,6 @@ p{
     text-align: left;
 }
 
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-
   .helpNsup-nav a {
     display: inline-block;
     color: black;
