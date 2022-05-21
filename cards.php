@@ -76,16 +76,16 @@
         <!--Horizontal line-->
         <hr style="width:100%">
 
-        <h2> Cards </h2><br>
+        <h1> Cards </h1><br>
         <div class="row">
         <div class="column-credit">
-            <h3>Credit Crads</h3>
+            <h2>Credit Crads</h2>
             <p>Make life more rewarding with the freedom of a ABC "VISA" and "Mastercard" Credit Card, a great choice for everyday purcheses..!</p>
             <button id="btn-credit" class="credit-crd-button" ><span>See more</span></button>
         </div>
 
         <div class="column-debit">
-            <h3>Debit Cards</h3>
+            <h2>Debit Cards</h2>
             <p>Spend your own money when you want and where you want with ABC Visa Debit Card.</p>
             <br>
             <button id="btn-debit" class="debit-crd-button" ><span>See more</span></button>
