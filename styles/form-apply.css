@@ -1,0 +1,57 @@
+.form-apply input[type=text]:focus 
+{
+    border-radius: 25px;
+    border: 3px solid #555;
+}
+
+.form-apply input[type=email]:focus 
+{
+    border-radius: 25px;
+    border: 3px solid #555;
+}
+
+.form-apply input[type=text]{
+    border-radius: 25px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .form-apply input[type=email]{
+    border-radius: 25px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+.form-apply input[type=submit] {
+    background-color: #408697;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+.form-apply input[type=submit]:hover {
+    background-color: #363538;
+  }
+
+.form-apply  {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    max-width:800px;
+    margin:auto;
+  }
+
+  h2 {
+      text-align: center;
+  }
