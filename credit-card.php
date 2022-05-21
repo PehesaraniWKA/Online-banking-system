@@ -25,10 +25,11 @@
             <?php
             if(isset($_SESSION["useruid"])) {
                 echo "<a href='Profile.php'>Profile</a>";
-                echo "<a href='payment.php'>E-banking</a>";
+                echo "<a href='includes/logout.inc.php'>Logout</a>";
             }
             else {
                 echo "<a href='Register intro.php'>Register</a>";
+                echo "<a href='Login.php'>Login</a>";
             }
             ?>
             <a href="contactus.php">Contact us</a>
@@ -45,10 +46,10 @@
 
         <div id="mySidebar" class="sidebar">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <a href="accounts.php">Accounts</a>
-                <a href="loan and leasing.php">Loan&Leasing</a>
-                <a href="cards.php">Cards</a>
-                <a href="Financial calculators.php">Financial Calculators</a>
+            <a href="account.php">Accounts</a>
+            <a href="#">Loan&Leasing</a>
+            <a href="#">E-banking</a>
+            <a href="#">Promotion</a>
             <br><br><br> <br><br><br> <br><br><br> <br><br><br> <br><br><br>
 
             <!--Calender-->
@@ -78,7 +79,9 @@
         <!--Credit cards-->
 
         <h1> Credit Cards </h1><br>
-        <h3> For whom:</h3><h4> Sri lankan citizens between the age of 18-65(For non-nationals: cards can be issued against a foreign country deposit)</h4>
+        <div class="for-whome-box">
+            <h3> For whom:</h3><h4> Sri lankan citizens between the age of 18-65(For non-nationals: cards can be issued against a foreign country deposit)</h4>
+        </div>
         <br>
         <div class="div-row">
             <div class="div-column">
@@ -176,7 +179,7 @@
             </ul>
         </div>
 
-                
+    <br><br>            
     <?php
     include_once 'footer.php';
     ?> 
