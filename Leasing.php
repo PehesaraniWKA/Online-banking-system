@@ -1,6 +1,10 @@
 <?php
     include_once 'header.php'
 ?>
+    <head>
+        <link rel="stylesheet" href="styles/loan and leasing.css">        
+    </head>
+
 
 <!--Navigation bar-->
     <div class="mainnav">

@@ -14,8 +14,7 @@ session_start();
         <!-- Load icon library (get a search icon)-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <!--<link rel="stylesheet" type="text/css" href="styles/financialCalculators.css">-->
-        <link rel="stylesheet" href="styles/about us.css">
-        <link rel="stylesheet" href="styles/loan and leasing.css">        
+        <link rel="stylesheet" href="styles/about us.css">       
     </head>
 
     <body>
