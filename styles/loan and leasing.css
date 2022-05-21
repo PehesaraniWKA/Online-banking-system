@@ -37,7 +37,7 @@ ul.ulist {
     padding: 0 100px;
 }
 
-.loantable table.ploan th,
+table.ploan th,
 table.ploan td {
     border: 1px solid black;
     text-align: center;
