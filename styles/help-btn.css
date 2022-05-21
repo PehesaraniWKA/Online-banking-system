@@ -1,4 +1,4 @@
-a:link, a:visited {
+a.help-btn-link:link, a.help-btn-link:visited {
   background-color: #52D6F4;
   color: white;
   padding: 14px 25px;
@@ -7,7 +7,7 @@ a:link, a:visited {
   display: inline-block;
 }
 
-a:hover, a:active {
+a.help-btn-link:hover, a.help-btn-link:active {
   background-color: #408697;
 }
 
