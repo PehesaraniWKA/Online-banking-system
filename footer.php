@@ -1,4 +1,7 @@
-
+<hr>
+<?php
+        include_once 'help-btn.php';
+        ?>
 <hr>
 <!--Horizontal line-->
             <hr style="width:100%"> 
