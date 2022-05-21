@@ -6,7 +6,7 @@ include_once 'header.php'
             <a class="openbtn" onclick="openNav()">&#9776; Services</a>
             <a href="Home.php">Home</a>
             <a class="active" href="#Register">Register</a>
-            <a href="#contact">Contact us</a>
+            <a href="contactus.php">Contact us</a>
             <a href="about us.php">About us</a>
             <div class="search-container">
                 <form action="/action_page.php">

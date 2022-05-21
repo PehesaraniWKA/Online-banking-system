@@ -13,8 +13,8 @@ include_once 'header.php'
                 echo "<a href='Register intro.php'>Register</a>"; 
             }
             ?>
-            <a href="#contact">Contact us</a>
-            <a Shref="#about">About us</a>
+            <a href="contactus.php">Contact us</a>
+            <a href="about us.php">About us</a>
             <div class="search-container">
                 <form action="/action_page.php">
                     <input type="text" placeholder="Search.." name="search">
