@@ -26,9 +26,7 @@
         </div>
         <!--Horizontal line-->
         <hr style="width:100%">
-                <!--div class="article-container"-->
-                    
-                <!--div-->
+                
         <body>
             <?php
                 echo "<div class='welcome'>";

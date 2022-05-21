@@ -49,15 +49,6 @@ section#top {
     min-height: 30vh;*/
 }
 
-section#bottom {
-    background: #363538;
-    color: #f6f6f6;
-}
-
-#footerlink {
-    color: #f6f6f6;
-}
-
 .mainnav {
     overflow: hidden;
     background-color: #b9b9b9;

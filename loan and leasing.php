@@ -58,7 +58,7 @@ include_once 'header.php'
 					
 					<h2>You can enjoy our FAST and EASY loan approvals</h2>
 				
-					<a href="Loan.html"><center><h3>See More Here</h3></center></a>
+					<a href="Loan.php"><center><h3>See More Here</h3></center></a>
 				
 				    </div>
 			    </div>
@@ -78,7 +78,7 @@ include_once 'header.php'
 						<li>machinery</li>
 					</h4></ul>
 				
-					<a href="Leasing.html"><center><h3>See More Here</h3></center></a>
+					<a href="Leasing.php"><center><h3>See More Here</h3></center></a>
 				
 					</div>
 				    </div>
