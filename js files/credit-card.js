@@ -1,9 +1,4 @@
-document.getElementById("btn-apply").onclick = function () {
-    location.href = "apply-credit-cards.php";
- };
-
-
-
+//Collapsible buttons
 var coll = document.getElementsByClassName("collapsible");
 var i;
 
@@ -18,3 +13,11 @@ for (i = 0; i < coll.length; i++) {
     }
   });
 }
+   
+function formpage(){
+   
+  window.open(
+     "form-apply.php", "_blank");
+
+}
+
