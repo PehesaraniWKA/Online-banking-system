@@ -31,7 +31,7 @@
             <?php
                 echo "<div class='welcome'>";
                 if(isset($_SESSION["useruid"])) {
-                    echo "<p align='center'>Hello there " .$_SESSION["useruid"]." </p>";
+                    echo "<p align='center'>Welcome " .$_SESSION["useruid"]." </p>";
                 }
                 echo "</div>";
             ?>
