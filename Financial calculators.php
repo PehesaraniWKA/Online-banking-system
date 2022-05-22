@@ -27,8 +27,8 @@
                 <a href="contactus.php">Contact us</a>
                 <a  href="about us.php">About us</a>
             </div>
-  <!--Horizontal line-->
-  <hr style="width:100%">          
+      <!--Horizontal line-->
+      <hr style="width:100%">          
             
                 <br>
                 <h1>Financial calculators</h1><br><br>
