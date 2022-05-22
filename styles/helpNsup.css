@@ -10,6 +10,9 @@ p{
         padding: 20px;
         text-align: center;
 }
+h2 {
+  text-align: center;
+}
 .helpNsup-lastpara {
     text-align: left;
 }
