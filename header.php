@@ -93,3 +93,7 @@ session_start();
                 </script>
             </div>
             
+                <?php
+            include_once 'help-btn.php';
+            ?>
+            
