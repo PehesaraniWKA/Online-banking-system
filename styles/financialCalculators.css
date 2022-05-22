@@ -1,15 +1,20 @@
 html {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-*, *:before, *:after {
-  box-sizing: inherit;
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
 }
 
-.calrow > .calcolumn {
-    padding: 0 10px;
-  }
+.calrow {
+    padding-left: 110px;
+}
 
+.calrow>.calcolumn {
+    padding: 10px 10px;
+}
 
 .calcolumn {
     float: left;
@@ -17,30 +22,31 @@ html {
     /*margin-bottom: 16px;*/
     padding: 5px;
     box-shadow: 0 0 5px #363538;
-  }
-  
-  @media screen and (max-width: 650px) {
+}
+
+@media screen and (max-width: 650px) {
     .calcolumn {
-      width: 100%;
-      display: block;
+        width: 100%;
+        display: block;
     }
-  }
+}
 
-  .calimage {
+.calimage {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  }
+}
 
-  .calcontainer {
+.calcontainer {
     padding: 0 16px;
-  }
+}
 
-  .calcontainer::after, .calrow::after {
+.calcontainer::after,
+.calrow::after {
     content: "";
     clear: both;
     display: table;
-  }
+}
 
-  .calbutton {
+.calbutton {
     border: none;
     outline: 0;
     display: inline-block;
@@ -51,8 +57,8 @@ html {
     text-align: center;
     cursor: pointer;
     width: 100%;
-  }
+}
 
-  .calbutton:hover {
+.calbutton:hover {
     background-color: #555;
-  }
+}
