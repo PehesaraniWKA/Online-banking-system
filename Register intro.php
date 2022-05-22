@@ -8,6 +8,7 @@ include_once 'header.php'
             <a class="active" href="#Register">Register</a>
             <a href="contactus.php">Contact us</a>
             <a href="about us.php">About us</a>
+            <a href="joinwithus.php">Join with us</a>
         </div></br>
 <!--Horizontal line-->
  <hr style="width:100%"></br>
