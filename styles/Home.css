@@ -23,7 +23,7 @@ body {
     padding: hide;
     border: none;
     background: #2196F3;
-    box-shadow: 5px 5px 10px 5px #181818ae;
+    box-shadow: -5px 5px 0px 0px #0c7ca8;
     outline: none;
     border-radius: 5px;
     font-size: 14px;
@@ -651,38 +651,48 @@ section#top {
     width: 100%;
 }
 
+
 /* Float four columns side by side */
+
 .h-column {
     float: left;
     width: 25%;
     padding: 0 10px;
-  }
-  
-  /* Remove extra left and right margins, due to padding */
-  .h-row {margin: 0 -5px;}
-  
-  /* Clear floats after the columns */
-  .h-row:after {
+}
+
+
+/* Remove extra left and right margins, due to padding */
+
+.h-row {
+    margin: 0 -5px;
+}
+
+
+/* Clear floats after the columns */
+
+.h-row:after {
     content: "";
     display: table;
     clear: both;
-  }
-  
-  /* Responsive columns */
-  @media screen and (max-width: 600px) {
+}
+
+
+/* Responsive columns */
+
+@media screen and (max-width: 600px) {
     .h-column {
-      width: 100%;
-      display: block;
-      margin-bottom: 20px;
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
     }
-  }
-  
-  /* Style the counter cards */
-  .h-card {
+}
+
+
+/* Style the counter cards */
+
+.h-card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 16px;
     text-align: center;
     background-color: #f1f1f1;
-  }
-
-  
+}

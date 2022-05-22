@@ -57,7 +57,7 @@
 
         <div class="h-column">
             <div class="h-card">
-            <a href="debit-card.php"><img src="images/home-cards.png" alt="cards" style="width:100%"></a>
+            <a href="cards.php"><img src="images/home-cards.png" alt="cards" style="width:100%"></a>
             </div>
         </div>
         
