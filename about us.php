@@ -122,7 +122,7 @@ include_once 'header.php'
 
 		  <div class="column-mem">
 			<div class="card-mem">
-			  <img src="images/managing director.jfif" alt="Ama" class="center-mem">
+			  <img src="images/director.jpg" alt="Ama" class="center-mem">
 			  <div class="container-mem">
 				<h2>Mrs.Ama Pahesarani</h2>
 				<div class="title-mem"><h4>Managing Director</h4>
@@ -150,7 +150,7 @@ include_once 'header.php'
 		  </div>
 		  <div class="column-mem">
 			<div class="card-mem">
-			  <img src="images/director.jpg" alt="Pathum" class="center-mem">
+			  <img src="images/manager22.jpg" alt="Pathum" class="center-mem">
 			  <div class="container-mem">
 				<h2>Dr.Pathum Dilhari</h2>
 				<div class="title-mem"><h4>Director</h4>
