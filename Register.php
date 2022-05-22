@@ -18,7 +18,7 @@
 					<input type="text" class="box" name="addr" placeholder ="Home Address.."><br />
 					<input type="tel"  class="box" name="phone" placeholder ="Contact Number..(0778554991)"><br />
 					<span>Add your clear picture</span>
-					<input type="file"  name="pimage" accept="image/jpg, image/jpeg, image/png"></br>
+					<input type="file"  class="box2" name="pimage" accept="image/jpg, image/jpeg, image/png"></br>
 				</div>	
 				<div class="inputBox">
 				<span>Login Details</span>
@@ -63,7 +63,7 @@
 			<p  align="center">	
 				<button class="btn" type="button"><a href="Login.php">Login Now</a></button>
 			</p>
-				<button class="btnback" type="button"><a href ="Register intro.php">Back</a></button>
+				<!--button class="btnback" type="button"--><!--a href ="Register intro.php">Back</!--a></!--button-->
 		</form>	
 	</section>
 	<div class="pwbox">

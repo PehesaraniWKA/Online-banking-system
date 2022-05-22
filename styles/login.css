@@ -8,7 +8,7 @@
 body {
     width: 100%;
     min-height: 100vh;
-    /*background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(bg.jpg);*/
+    background-image: url(../images/slideshow\ image\ 4.png);
     background-position: center;
     background-size: cover;
     display: flex;
@@ -19,14 +19,14 @@ body {
 .container {
     width: 400px;
     min-height: 400px;
-    background: #f6f6f6;
+    background: #2b2b2bbe;
     border-radius: 5px;
-    box-shadow: 0 0 5px #363538;
+    box-shadow: -5px 5px 10px 5px #e7e8e9ae;
     padding: 40px 30px;
 }
 
 .container .login-text {
-    color: #111;
+    color: rgb(255, 255, 255);
     font-weight: 500;
     font-size: 1.1rem;
     text-align: left;
@@ -48,7 +48,7 @@ body {
     padding: 15px 20px;
     font-size: 1rem;
     border-radius: 30px;
-    background: transparent;
+    background-color: #f6f6f6;
     outline: none;
     transition: .3s;
 }
@@ -60,17 +60,22 @@ body {
 
 .container .login-email .input-group .btn {
     display: block;
-    width: 100%;
+    height: 50px;
+    width: 200px;
     padding: 15px 20px;
     text-align: center;
     border: none;
     background: #52D6F4;
     outline: none;
-    border-radius: 30px;
+    border-radius: 15px;
     font-size: 1.2rem;
     color: #f6f6f6;
     cursor: pointer;
     transition: .3s;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
 }
 
 .container .login-email .input-group .btn:hover {
@@ -79,14 +84,14 @@ body {
 }
 
 .login-register-text {
-    color: #111;
+    color: rgb(249, 248, 248);
     text-align: center;
     font-weight: 600;
 }
 
 .login-register-text a {
     text-decoration: none;
-    color: #52D6F4;
+    color: #1a92f5;
 }
 
 .signup-form .container .form p {

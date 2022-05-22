@@ -7,8 +7,8 @@
 
 body {
     width: 100%;
-    min-height: 100vh;
-    background-image: linear-gradient( to left, rgba(43, 222, 219, 0.5), rgba(255, 255, 255, 0.5), rgba(18, 147, 136, 0.5));
+    height: 100vh;
+    background-image: url(../images/slideshow\ image\ 4.png);
     background-position: center;
     background-size: cover;
     display: flex;
@@ -17,14 +17,15 @@ body {
 }
 
 .signup-form {
-    height: 650px;
-    width: 800px;
+    width: 700px;
+    min-height: 100px;
     display: flex;
+    background: rgba(0, 0, 0, 0.71);
     align-items: center;
     justify-content: center;
     padding: 10px;
     border-radius: 5px;
-    box-shadow: 0px 0px 5px 0px #585a5bae;
+    box-shadow: -5px 5px 10px 5px #e7e8e9ae;
 }
 
 .signup-form form {
@@ -46,16 +47,16 @@ body {
 .signup-form form .flex .inputBox span {
     text-align: left;
     cursor: default;
-    font: size 0.5em;
     display: block;
     margin-top: 15px;
     font-size: 17px;
-    color: #000;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
 }
 
 .signup-form form .flex .inputBox .box {
     width: 75%;
-    border: 2px solid #8d8d8d;
+    border: 3px solid #8d8d8d;
     border-radius: 25px;
     padding: 2px 20px;
     font-size: 15px;
@@ -66,15 +67,23 @@ body {
 }
 
 .signup-form form .flex .inputBox .box:hover {
-    border: 2px solid #2db4b4;
+    border: 3px solid #1cdcdc;
+}
+
+.signup-form form .flex .inputBox .box2 {
+    font-size: 15px;
+    color: #e2dede;
 }
 
 .signup-form form h3 {
     width: 100%;
+    color: aliceblue;
+    font-size: 30px;
 }
 
 .signup-form form p {
     font-weight: 600;
+    color: red;
     font-size: medium;
 }
 
@@ -108,6 +117,8 @@ body {
     color: rgb(234, 228, 228);
 }
 
+
+/*
 .btnback {
     display: block;
     margin-bottom: 1px;
@@ -133,6 +144,7 @@ body {
     text-decoration: none;
     color: rgb(234, 228, 228);
 }
+*/
 
 
 /* The message box is shown when the user clicks on the password field */
@@ -140,13 +152,13 @@ body {
 .pwbox {
     box-shadow: 0px 5px 5px #363538;
     border-radius: 5px;
-    background-color: #d4e4e8;
+    background-color: #1d1d1db0;
 }
 
 #message {
     display: none;
-    background-color: rgb(252, 246, 246);
-    color: #000;
+    background-color: rgba(128, 126, 126, 0.109);
+    color: rgb(233, 233, 233);
     position: relative;
     padding: 20px;
     margin-top: 10px;
@@ -154,14 +166,14 @@ body {
 
 #message p {
     padding: 10px 35px;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 
 /* Add a green text color and a checkmark when the password requirements are right */
 
 .valid {
-    color: green;
+    color: rgb(6, 181, 6);
 }
 
 .valid:before {

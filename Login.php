@@ -30,7 +30,9 @@
 				<input type="password" name="pwd" placeholder="Password.." required>
 			</div>
 			<div class="input-group">
+				<p align="center">
 				<button type="submit" name="submit" class="btn">Log In</button>
+				</p>
 			</div>
 			<p class="login-register-text">Not Registered Yet?<br>Get the best online banking experience with ABC Bank<br><a href="Register.php">Register Now</a></p>
 			</div>
