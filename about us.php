@@ -16,6 +16,7 @@ include_once 'header.php'
             ?>
             <a href="contactus.php">Contact us</a>
             <a class="active" href="#about">About us</a>
+			<a  href="joinwithus.php">Join with us</a>
         </div></br>
  <!--Horizontal line-->
  <hr style="width:100%"></br>
