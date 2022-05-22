@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 * {
-    margin: 0;
-    padding: 2px;
+    margin: 0px;
+    padding: 16px;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
@@ -11,6 +11,8 @@
 
 body {
     background-image: url(../images/bk1.png);
+    padding: 8px;
+    padding-top: 8px;
 }
 
 
@@ -21,6 +23,7 @@ body {
     padding: hide;
     border: none;
     background: #2196F3;
+    box-shadow: 5px 5px 10px 5px #181818ae;
     outline: none;
     border-radius: 5px;
     font-size: 14px;
@@ -57,13 +60,11 @@ section#top {
     overflow: hidden;
     background-color: #b9b9b9;
     position: sticky;
-    top: 0px;
-    bottom: 0px;
 }
 
 #main {
     transition: margin-left .5s;
-    padding: 16px;
+    padding-bottom: 20px;
 }
 
 .mainnav a {
@@ -615,6 +616,8 @@ section#top {
 .welcome {
     display: flex;
     justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .welcome p {

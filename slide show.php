@@ -1,6 +1,4 @@
- <!--Horizontal line-->
- <hr style="width:100%">
-            
+           
  <!--Slide show-->
  <div class="slideshow-container">
 

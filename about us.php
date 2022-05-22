@@ -16,9 +16,9 @@ include_once 'header.php'
             ?>
             <a href="contactus.php">Contact us</a>
             <a class="active" href="#about">About us</a>
-        </div>
+        </div></br>
  <!--Horizontal line-->
- <hr style="width:100%">
+ <hr style="width:100%"></br>
         <body>
 	<div class="vm">
 		<div class="about-section">

@@ -8,9 +8,9 @@ include_once 'header.php'
             <a class="active" href="#Register">Register</a>
             <a href="contactus.php">Contact us</a>
             <a href="about us.php">About us</a>
-        </div>
+        </div></br>
 <!--Horizontal line-->
- <hr style="width:100%">
+ <hr style="width:100%"></br>
 <?php
 include_once 'slide show.php'
 ?>            

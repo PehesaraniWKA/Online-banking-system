@@ -24,10 +24,9 @@
                     <button type="submit" name="submit-search"><img src="images/Search icon.png" height="15px" width="20px"></button>
                 </form>
             </div>
-        </div>
+        </div></br>
         <!--Horizontal line-->
         <hr style="width:100%">
-                
         <body>
             <?php
                 echo "<div class='welcome'>";
@@ -36,7 +35,7 @@
                 }
                 echo "</div>";
             ?>
-            
+          
         </body>
 
 <?php

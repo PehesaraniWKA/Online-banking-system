@@ -16,9 +16,9 @@ include_once 'header.php'
             ?>
                 <a href="contactus.php">Contact us</a>
                 <a  href="about us.php">About us</a>
-        </div>
+        </div></br>
         <!--Horizontal line-->
-        <hr style="width:100%">
+        <hr style="width:100%"></br>
     <body class="profile"> 
         <?php echo "<p align='center'> <img src=uploadedimage/".$_SESSION['userimg']." alt='Avatar' class='profile-img'></p>"; ?>
             <section class="userprofile">
