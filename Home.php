@@ -17,7 +17,7 @@
         ?>
             <a href="contactus.php">Contact us</a>
             <a  href="about us.php">About us</a>
-            <a  href="joinwithus.php">About us</a>
+            <a  href="joinwithus.php">Join with us</a>
             <div class="search-container">
                 <form action="search.php" method="POST">
                     <input type="text" placeholder="Search.." name="search">
