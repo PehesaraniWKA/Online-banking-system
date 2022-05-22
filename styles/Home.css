@@ -6,12 +6,16 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+    background-image: url(../images/bk1.png);
+}
+
 
 /*Login button*/
 
 .loginbt {
-    padding: 0px 0px;
     text-align: center;
+    padding: hide;
     border: none;
     background: #2196F3;
     outline: none;
@@ -43,10 +47,7 @@
 }
 
 section#top {
-    background: white;
-    /*background: linear-gradient(164deg, #363538 0%, #8d8c8a 52%, #408697 100%);
-    color: #270942;
-    min-height: 30vh;*/
+    background: transparent;
 }
 
 .mainnav {

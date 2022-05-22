@@ -40,7 +40,11 @@
 
 <?php
     include_once 'slide show.php'
-?>            
+?> 
+
+<?php
+    //include_once 'boxmanu.php'
+?>    
 
 <?php
     include_once 'footer.php'

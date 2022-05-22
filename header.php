@@ -13,16 +13,17 @@ session_start();
         <link rel="stylesheet" href="styles/Home.css">
         <!-- Load icon library (get a search icon)-->
         <!--<link rel="stylesheet" type="text/css" href="styles/financialCalculators.css">-->
-        <link rel="stylesheet" href="styles/about us.css">       
+        <!--link rel="Stylesheet" type ="text/css" href="styles/boxmanu.css"-->
+        <link rel="stylesheet" href="styles/about us.css">    
+        <link rel="stylesheet" href="styles/chatbot3.css">
     </head>
 
     <body>
 
         <div id="main">
             <section id="top">
+                <img align="left" src="images/banklogo.png" alt="Logo" width="350px" height="150px">
                 <!--Avater image-->
-                <img align="left" src="images/Bank logo.png" alt="Logo" width="400px" height="200px">
-                
                 <?php
                     if(isset($_SESSION["userimg"])) {
                         echo "<div align='right'><img src=uploadedimage/".$_SESSION['userimg']." alt='Avatar' class='avatar'></div>";
@@ -33,7 +34,7 @@ session_start();
                 ?>
                 <?php
                     if(isset($_SESSION["useruid"])) {
-                        echo "<div align='right'
+                        echo "<div align='right'>
                         <!--Login button-->
                         <button class='loginbt' type='button'><a href ='includes/logout.inc.php'>Logout</a></button>
                         </div>";
@@ -48,7 +49,7 @@ session_start();
                 <!--<center>
                     <h1> ABC BANK</h1>
                 </center>-->
-            </section>
+                <section>
             <!--Horizontal line-->
             <hr style="width:100%">
             
