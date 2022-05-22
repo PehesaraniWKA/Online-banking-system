@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,7 +22,7 @@
     <div id="main">
         <section id="top">
             <!--Avater image-->
-            <img align="left" src="images/Bank logo.png" alt="Logo" width="400px" height="200px">
+            <img align="left" src="images/banklogo.png" alt="Logo" width="400px" height="200px">
             <div align="right">
             </div>
 
@@ -35,11 +38,15 @@
 
         <div id="mySidebar" class="sidebar">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="account.php">Accounts</a>
-            <a href="#">Loan&Leasing</a>
-            <a href="#">E-banking</a>
-            <a href="#">Promotion</a>
-            <a href="cards.php">Cards</a>
+                <a href="accounts.php">Accounts</a>
+                <a href="loan and leasing.php">Loan&Leasing</a>
+                <a href="cards.php">Cards</a>
+                <a href="Financial calculators.php">Financial Calculators</a>
+            <?php
+                if(isset($_SESSION["useruid"])) {
+                    echo "<a href='openNewbankAcc.php'>Open New Bank Account</a>";
+                }
+            ?>
             <br><br><br> <br><br><br> <br><br><br> <br><br><br> <br><br><br>
 
             <!--Calender-->
@@ -71,14 +78,9 @@
             <a class="openbtn" onclick="openNav()">&#9776; Services</a>
             
             <a class="active" href="#helpandsupport">Help and Support</a>
-            <div class="search-container">
-                <form action="/action_page.php">
-                    <input type="text" placeholder="Search.." name="search">
-                    <button type="submit"><i class="fa fa-search"></i></button>
-                </form>
-            </div>
         </div>
-        
+        <!--Horizontal line-->
+    <hr style="width:100%">
     <!--Nav bar-->
     <center>
         <hr>
