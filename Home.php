@@ -20,7 +20,7 @@
             <div class="search-container">
                 <form action="search.php" method="POST">
                     <input type="text" placeholder="Search.." name="search">
-                    <button type="submit" name="submit-search"><i class="fa fa-search"></i></button>
+                    <button type="submit" name="submit-search"><img src="images/Search icon.png" height="15px" width="20px"></button>
                 </form>
             </div>
         </div>
