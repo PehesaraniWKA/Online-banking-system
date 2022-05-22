@@ -33,6 +33,7 @@
             ?>
             <a href="contactus.php">Contact us</a>
             <a href="about us.php">About us</a>
+            <a  href="joinwithus.php">Join with us</a>
         </div>
 
         <!-- Slide bar -->
