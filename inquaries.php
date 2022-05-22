@@ -137,8 +137,12 @@
         <input name="Submit" id="submitBtn" type="submit" value="submit" disabled>
 </form>
 </div>
-    <?php include_once('footer.php');
-    ?>
+
+<?php
+include_once 'footer.php';
+?>
+
     <script src="js files/helpNsup.js"></script>
 </body>
+
 </html>

@@ -14,5 +14,5 @@ a.help-btn-link:hover, a.help-btn-link:active {
 .sticky {
   position: fixed;
   bottom: 20px;
-  right: 0;
+  right: 95px;
 }

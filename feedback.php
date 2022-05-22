@@ -72,6 +72,12 @@
             <a class="openbtn" onclick="openNav()">&#9776; Services</a>
             
             <a class="active" href="#helpandsupport">Help and Support</a>
+            <div class="search-container">
+                <form action="/action_page.php">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
         </div>
 
     <!--Nav bar-->
@@ -128,9 +134,11 @@
 <p class="helpNsup-lastpara"><em> Email us: customerexperience@ABC.lk </p>
 <p class="helpNsup-lastpara"> write us: No:XX, Galle Road, Colombo XX, SriLanka. <em></p>
 
-    <?php 
-        include_once('footer.php');
-    ?>
+<?php
+include_once 'footer.php';
+?>
+
     <script src="js files/helpNsup.js"></script>
 </body>
+
 </html>

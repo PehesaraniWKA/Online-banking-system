@@ -72,6 +72,12 @@
             <a class="openbtn" onclick="openNav()">&#9776; Services</a>
             
             <a class="active" href="#helpandsupport">Help and Support</a>
+            <div class="search-container">
+                <form action="/action_page.php">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
         </div>
         
     <!--Nav bar-->
@@ -84,7 +90,7 @@
         <a href="feedback.php">Feedback</a>
         <a href="complains.php">Complains</a>
 </div>
-<center>
+            </center>
 <br/><br/>
     <h2> Pay Someone A Complement </h2>
     <p> Share your positive experience you had with ABC team made something special for you. Saying "Thank you" goes a long way and can make someone's day. Tell us about your experience so we can make sure the person or team you are complimenting hears about it, and gets the recognition they deservie. </p>
@@ -127,8 +133,11 @@
 <p class="helpNsup-lastpara"><em> Email us: customerexperience@ABC.lk </p>
 <p class="helpNsup-lastpara"> write us: No:XX, Galle Road, Colombo XX, SriLanka. </em></p>
 
-    <?php include_once('footer.php');
-    ?>
+<?php
+include_once 'footer.php';
+?>
+
     <script src="js files/helpNsup.js"></script>
 </body>
-<html>
+
+</html>
