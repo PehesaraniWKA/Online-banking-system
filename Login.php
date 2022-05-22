@@ -22,7 +22,7 @@
 				}
 			}
 			?>
-			<p class="login-text" style="font-size: 2rem; font-weight: 800;">Login in to your Account</p>
+			<p class="login-text" style="font-size: 2rem; font-weight: 800;">Login in to User Profile</p>
 			<div class="input-group">
 				<input type="text" name="uid" placeholder="Username/Email.." required>
 			</div>
