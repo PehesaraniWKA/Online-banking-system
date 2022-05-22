@@ -1,4 +1,6 @@
-
+<?php
+include_once 'help-btn.php';
+?>
 <!--Horizontal line-->
             <hr style="width:100%"> 
     <!--Footer-->
