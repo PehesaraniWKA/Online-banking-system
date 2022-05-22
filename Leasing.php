@@ -21,12 +21,6 @@
         ?>
             <a href="contactus.php">Contact us</a>
             <a  href="about us.php">About us</a>
-            <div class="search-container">
-                <form action="search.php" method="POST">
-                    <input type="text" placeholder="Search.." name="search">
-                    <button type="submit" name="submit-search"><i class="fa fa-search"></i></button>
-                </form>
-            </div>
         </div>
 
     <!--Horizontal line-->
