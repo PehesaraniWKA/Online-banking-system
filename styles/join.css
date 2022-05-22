@@ -16,7 +16,7 @@
     height: 300px;
     margin: 100px auto;
     background: transparent;
-    left: 1%
+    
 } 
 
 
@@ -28,7 +28,7 @@
     height: calc(250px - 1px);
     background-image: linear-gradient(to bottom right, #2d373e, #2d373e);
     float: left;
-    margin: 50px;
+    margin: 30px;
     box-sizing: border-box;
     border-radius: 10px;
 }
