@@ -2,61 +2,45 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="styles/payment.css"> <!-- css sheet/payment-->
+<link rel="stylesheet" href="styles/payment.css">
+
 </head>
-
 <body>
-
-    
-    <script src="js files/popuppayment.js"></script>
-        <div class = "bgpayment">  
-        <div class="popupwin">
-
-
- <!-- customer iformation form / billing information form/php tabal name-payment/-->
-<div class="prow">
-  <div class="col-75p">
-   <div class="containerpay">
-    <h2>Billing Information</h2>
-
-   <form action="includes/insert.php" method="post">  <!-- Php databass connection-->
+<!--Biling info and Customer info form-->
+<h2>Billing Information</h2>
+<div class="row">
+  <div class="col-75">
+   <div class="container">
+      <form action="/action_page.php">
       
-
-         <!--page divaider (need to fix dinakara)-->
-          <div class="prow">
-          <div class="col-50p">
+        <div class="row">
+          <div class="col-50">
 		  
-		   <!--Drop down menu for company selection / fixed by dinakara need to check animation js-->
-
-      <label class="payla"  for ="Company">Select Company </label>
-			<select class="payse" name="Company" id="Company">
+		  <div class="select">
+            <label for ="Company">Select Company </label>
+			<select name="Company" id="Company">
 			<option value="Dialog">Dialog</option>
 			<option value="Mobitel">Mobitel</option>
 			<option value="Hutch">Hutch</option>
 			<option value="AIA">AIA</option>
 			</select>
-			
-             <!--Customer info form-->
+			</div>
+            <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Dinakara" required>
+            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+            <input type="email" id="email" name="email" placeholder="Dinakara@example.com" required>
+            <label for="Refno"><i class="fa fa-address-card-o"></i> Enter Reference No </label>
+            <input type="text" id="Refno" name="Reference" placeholder="Optional" required>
+            <label for="Phone"><i class="fa fa-institution"></i> Phone</label>
+            <input type="phone" id="phone" name="phone" placeholder="0711233218" required>
 
-            <label class ="payla" for="name"><i class="fa fa-user"></i> Full Name</label>
-            <input class ="payin" type="text" id="name" name="name" placeholder="Dinakara">
-            <label class ="payla" for="email"><i class="fa fa-envelope"></i> Email</label>
-            <input class ="payin" type="text" id="email" name="email" placeholder="Dinakara@example.com">
-            <label class ="payla" for="Refno"><i class="fa fa-address-card-o"></i> Enter Reference No </label>
-            <input class ="payin" type="text" id="Refno" name="Refno" placeholder="Optional">
-            <label class ="payla" for="phone"><i class="fa fa-institution"></i> Phone</label>
-            <input class ="payin" type="text" id="phone" name="phone" placeholder="0711233218">
-
-
-             <!--payment methord redio button / need to connect php-->
-
-            <div class="prow">
-              <div class="col-50p">
-                <label class ="payla" for="paym">Payment methord</label>
-                <input class ="payin" type = "radio" name="methord"
+            <div class="row">
+              <div class="col-50">
+                <label for="paym">Payment methord</label>
+                <input type = "radio" name="methord"
                 value="Credit card"> Credit card
 
-                <input class ="payin"type = "radio" name="methord"
+                <input type = "radio" name="methord"
                 value="Bank Tranfer"> Bank Tranfer
               </div>
             </div>
@@ -65,44 +49,37 @@
 
          <!--Payment info form-->  
 
-          <div class="col-50p">
+          <div class="col-50">
             <h3>Payment info</h3>
             
-            <label class ="payla" for="cardname">Name on Card</label>
-            <input class ="payin" type="text" id="cardname" name="cardname" placeholder="D.N.A.Perera">
-            <label class ="payla" for="cardnumber">Credit card number</label>
-            <input class ="payin" type="text" id="cardnumber" name="cardnumber" placeholder="1111-2222-3333-4444">
-            <label class ="payla" for="expmonth">Exp Month</label>
-            <input class ="payin" type="text" id="expmonth" name="expmonth" placeholder="September">
-            <div class="prow">
-              <div class="col-50p">
-                <label class ="payla" for="expyear">Exp Year</label>
-                <input class ="payin" type="text" id="expyear" name="expyear" placeholder="2024">
+            <label for="cname">Name on Card</label>
+            <input type="text" id="cname" name="cardname" placeholder="D.N.A.Perera" required>
+            <label for="ccnum">Credit card number</label>
+            <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444" required>
+            <label for="expmonth">Exp Month</label>
+            <input type="text" id="expmonth" name="expmonth" placeholder="September" required>
+            <div class="row">
+              <div class="col-50">
+                <label for="expyear">Exp Year</label>
+                <input type="text" id="expyear" name="expyear" placeholder="2024" required>
               </div>
-              <div class="col-50p">
-                <label class ="payla" for="cvv">CVV</label>
-                <input class ="payin" type="text" id="cvv" name="cvv" placeholder="134">
-
-                <input type="submit" value="Pay" class="btnpay">    <!--submit btn / fix php and databass issu by dinakara-->
-
+              <div class="col-50">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" placeholder="134" required>
+              </div>
+              <div>
+                <img src="images/payment-image.png" width="250px" height="80px" required>
               </div>
             </div>
           </div>
-         </input>
+          
         </div>
-                                  
-     </form> 
+        <a href="Home.php"><input type="submit" value="Continue to checkout" class="btn"></a>
+      </form>
     </div>
   </div>
-  
+
 </div>
-
-        </div>
-        
-    </div>
-
-
-    
 
 </body>
 </html>
