@@ -16,6 +16,7 @@ session_start();
         <!--link rel="Stylesheet" type ="text/css" href="styles/boxmanu.css"-->
         <link rel="stylesheet" href="styles/about us.css">    
         <link rel="stylesheet" href="styles/chatbot3.css">
+        <link rel="Stylesheet" type ="text/css" href="styles/joinwithus.css">
     </head>
 
     <body>
