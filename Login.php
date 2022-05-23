@@ -34,7 +34,8 @@
 				<button type="submit" name="submit" class="btn">Log In</button>
 				</p>
 			</div>
-			<p class="login-register-text">Not Registered Yet?<br>Get the best online banking experience with ABC Bank<br><a href="Register.php">Register Now</a></p>
+			<p class="login-register-text">Not Registered Yet?<br>Get the best online banking experience with ABC Bank</p>
+			<p class="regbtn"><a href="Register.php">Register Now</a></p>
 			</div>
 		</form>
 	</div>

@@ -94,7 +94,8 @@ body {
     width: 200px;
     text-align: center;
     border: none;
-    background: #41adc5;
+    background: #0e6bb2;
+    box-shadow: -5px 3px 0px 0px #0162ac;
     outline: none;
     border-radius: 10px;
     font-size: 1.2rem;
@@ -109,7 +110,8 @@ body {
 
 .btn:hover {
     transform: translateY(-5px);
-    background: #408697;
+    background: #022f4e;
+    box-shadow: -5px 3px 0px 0px #e4ab00;
 }
 
 .btn a {

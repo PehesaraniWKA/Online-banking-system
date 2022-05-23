@@ -20,21 +20,28 @@ body {
 
 .loginbt {
     text-align: center;
-    padding: hide;
+    margin-right: 16px;
+    width: 100px;
+    height: 30px;
     border: none;
-    background: #2196F3;
-    box-shadow: -5px 5px 0px 0px #0c7ca8;
+    background: #0162ac;
+    box-shadow: -5px 3px 0px 0px #0162ac;
     outline: none;
-    border-radius: 5px;
+    border-radius: 15px;
     font-size: 14px;
     color: #f6f6f6;
     cursor: pointer;
     transition: .3s;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
 }
 
 .loginbt:hover {
     transform: translateY(-5px);
-    background: #408697;
+    background: #022f4e;
+    box-shadow: -5px 3px 0px 0px #e4ab00;
 }
 
 .loginbt a {
@@ -47,8 +54,10 @@ body {
 
 .avatar {
     align-self: center;
-    width: 46px;
-    height: 42px;
+    width: 100px;
+    height: 80px;
+    margin-top: 20px;
+    margin-right: 16px;
     border-radius: 50%;
 }
 
@@ -626,8 +635,8 @@ section#top {
     font-weight: bolder;
     width: 19%;
     background: linear-gradient(to right, #e6edee, #e7e9ea, #e6edee);
-    box-shadow: -8px 7px 20px 5px rgba(184, 186, 186, 0.71);
-    color: #72b6f5;
+    box-shadow: -8px 7px 20px 5px #0162ac;
+    color: #0162ac;
     border-radius: 10px;
     cursor: none;
     transition: .3s;
@@ -635,6 +644,7 @@ section#top {
 
 .welcome p:hover {
     transform: translateY(-5px);
+    box-shadow: -5px 7px 10px 0px #e4ab00;
 }
 
 

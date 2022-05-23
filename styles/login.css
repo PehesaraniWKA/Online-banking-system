@@ -17,7 +17,7 @@ body {
 }
 
 .container {
-    width: 400px;
+    width: 500px;
     min-height: 400px;
     background: #2b2b2bd5;
     border-radius: 5px;
@@ -60,15 +60,17 @@ body {
     display: block;
     height: 50px;
     width: 200px;
-    padding: 15px 20px;
+    padding: 10px 20px;
     text-align: center;
     border: none;
-    background: #52D6F4;
+    background: #0162ac;
+    box-shadow: -5px 3px 0px 0px #0162ac;
     outline: none;
     border-radius: 15px;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: #f6f6f6;
     cursor: pointer;
+    font-weight: 600;
     transition: .3s;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
@@ -78,7 +80,8 @@ body {
 
 .container .login-email .input-group .btn:hover {
     transform: translateY(-5px);
-    background: #408697;
+    background: #022f4e;
+    box-shadow: -5px 3px 0px 0px #e4ab00;
 }
 
 .login-register-text {
@@ -87,9 +90,34 @@ body {
     font-weight: 600;
 }
 
-.login-register-text a {
+.regbtn {
+    align-items: center;
+    display: block;
+    margin-left: 160px;
+    height: 30px;
+    width: 120px;
+    padding: 8px 20px;
+    text-align: center;
+    border: none;
+    background: #0162ac;
+    box-shadow: -2px 2px 0px 0px #0162ac;
+    outline: none;
+    font-size: 12px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.regbtn a {
     text-decoration: none;
-    color: #1a92f5;
+    color: #f6f6f6;
+}
+
+.regbtn:hover {
+    transform: translateY(-2px);
+    background: #022f4e;
+    box-shadow: -2px 2px 0px 0px #e4ab00;
 }
 
 .signup-form .container .form p {
