@@ -135,7 +135,7 @@ session_start();
         <lable for="remarks">Remarks : </lable>
             <textarea name="remarks" rows="8" cols="80"></textarea>
         <br/><br/>
-        <input type="checkbox" id="checkbox" onclick="enableButton()"> Confirm your feedback
+        <input type="checkbox" id="checkbox" onclick="enableButton()"> Confirm your inquary
         <input name="Submit" id="submitBtn" type="submit" value="submit" disabled>
 </form>
 </div>
