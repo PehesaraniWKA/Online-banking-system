@@ -11,7 +11,7 @@
   <!-- Chatbot buton -->
     <input type="checkbox" id="click">
     <label for="click">
-    <img src="images/chatbot7.gif" height="100px" width="100px" style="border-radius:50px">
+    <img src="images/chatbot8.gif" height="100px" width="100px" style="border-radius:50px">
     </label>
     <div class="wrapper">
       <div class="head-text">
