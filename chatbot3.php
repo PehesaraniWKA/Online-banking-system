@@ -11,8 +11,7 @@
   <!-- Chatbot buton -->
     <input type="checkbox" id="click">
     <label for="click">
-      <i class="fab fa-facebook-messenger"></i>
-      <i class="fas fa-times"></i>
+    <img src="images/chatbot7.gif" height="100px" width="100px" style="border-radius:50px">
     </label>
     <div class="wrapper">
       <div class="head-text">
