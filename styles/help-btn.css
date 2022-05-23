@@ -1,18 +1,27 @@
-a.help-btn-link:link, a.help-btn-link:visited {
-  background-color: #52D6F4;
-  color: white;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
+a.help-btn-link:link,
+a.help-btn-link:visited {
+    background-color: rgb(5, 149, 239);
+    box-shadow: -5px 3px 0px 0px rgb(5, 149, 239);
+    color: white;
+    border-radius: 5px;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
-a.help-btn-link:hover, a.help-btn-link:active {
-  background-color: #408697;
+a.help-btn-link:hover,
+a.help-btn-link:active {
+    background-color: #097ac6;
+    box-shadow: -5px 3px 0px 0px #e4ab00;
 }
 
 .sticky {
-  position: fixed;
-  bottom: 20px;
-  right: 95px;
+    position: fixed;
+    bottom: 20px;
+    right: 95px;
 }

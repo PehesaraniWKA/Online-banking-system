@@ -10,7 +10,7 @@
 /*background image*/
 
 body {
-    background-image: url(../images/bk1.png);
+    background-image: url(../images/webback8.webp);
     padding: 8px;
     padding-top: 8px;
 }
@@ -24,8 +24,8 @@ body {
     width: 100px;
     height: 30px;
     border: none;
-    background: #0162ac;
-    box-shadow: -5px 3px 0px 0px #0162ac;
+    background: rgb(5, 149, 239);
+    box-shadow: -5px 3px 0px 0px rgb(5, 149, 239);
     outline: none;
     border-radius: 15px;
     font-size: 14px;
@@ -40,7 +40,7 @@ body {
 
 .loginbt:hover {
     transform: translateY(-5px);
-    background: #022f4e;
+    background: #097ac6;
     box-shadow: -5px 3px 0px 0px #e4ab00;
 }
 
@@ -67,8 +67,14 @@ section#top {
 
 .mainnav {
     overflow: hidden;
-    background-color: #b9b9b9;
+    background-color: #ffde59;
+    box-shadow: 0px 5px 0px 0px #f2c233;
+    border-radius: 5px;
     position: sticky;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
 #main {
@@ -88,13 +94,15 @@ section#top {
 }
 
 .mainnav a:hover {
-    background-color: rgb(128, 134, 128);
+    background-color: rgb(189, 215, 238);
     color: rgb(4, 4, 4);
+    border-radius: 5px;
 }
 
 .mainnav a.active {
-    background-color: #2196F3;
+    background-color: rgb(5, 149, 239);
     color: white;
+    border-radius: 5px;
 }
 
 .mainnav .search-container {
@@ -118,7 +126,7 @@ section#top {
     padding: 6px 10px;
     margin-top: 5px;
     margin-right: 16px;
-    background: #ddd;
+    background: rgb(236, 228, 10);
     font-size: 17px;
     border-radius: 10px;
     border: none;
@@ -130,7 +138,7 @@ section#top {
 }
 
 .mainnav .search-container button:hover {
-    background: #ccc;
+    background: rgb(5, 149, 239);
 }
 
 
@@ -215,7 +223,7 @@ section#top {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #818181;
+    color: #d9eeed;
     display: block;
     transition: 0.3s;
 }
@@ -224,7 +232,7 @@ section#top {
 /*Mouse over the navigation links, change their color */
 
 .sidebar a:hover {
-    color: #f1f1f1;
+    color: #fffaae;
 }
 
 
@@ -244,10 +252,15 @@ section#top {
 .openbtn {
     font-size: 20px;
     cursor: pointer;
-    background-color: rgb(158, 167, 170);
+    background-color: rgb(236, 235, 197);
     color: white;
+    border-radius: 5px;
     padding: 10px 15px;
     border: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
 .openbtn:hover {
@@ -616,7 +629,7 @@ section#top {
     width: 100%;
     padding-top: 4px;
     color: #eee;
-    background: #363538;
+    background: #272727;
 }
 
 
@@ -635,11 +648,15 @@ section#top {
     font-weight: bolder;
     width: 19%;
     background: linear-gradient(to right, #e6edee, #e7e9ea, #e6edee);
-    box-shadow: -8px 7px 20px 5px #0162ac;
+    box-shadow: -8px 7px 20px 5px rgb(5, 149, 239);
     color: #0162ac;
-    border-radius: 10px;
+    border-radius: 5px;
     cursor: none;
     transition: .3s;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
 .welcome p:hover {
