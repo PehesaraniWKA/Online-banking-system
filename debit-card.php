@@ -66,9 +66,11 @@
                 })
             </script>
         </div>
+        <br>
         <!--Horizontal line-->
         <hr style="width:100%">
-
+        <br>
+        
         <!--Debit cards-->
 
         <h1> Debit Cards </h1><br>

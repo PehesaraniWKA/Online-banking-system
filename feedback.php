@@ -31,10 +31,7 @@ session_start();
                 <h1> ABC BANK</h1>
             </center>-->
         </section>
-        <!--Horizontal line-->
-        <hr style="width:100%">
         
-
         <!-- Slide bar -->
 
         <div id="mySidebar" class="sidebar">
@@ -71,8 +68,10 @@ session_start();
                 })
             </script>
         </div>
+
         <!--Horizontal line-->
         <hr style="width:100%">
+        <br>
 
         <!--Navigation bar-->
         <div class="mainnav">
@@ -80,8 +79,11 @@ session_start();
             
             <a class="active" href="#helpandsupport">Help and Support</a>
         </div>
- <!--Horizontal line-->
+
+        <br>
+        <!--Horizontal line-->
         <hr style="width:100%">
+        
     <!--Nav bar-->
     <center>
         <hr>

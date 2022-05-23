@@ -26,8 +26,10 @@ include_once 'header.php'
             <a  href="about us.php">About us</a>
             <a  href="joinwithus.php">Join with us</a>
         </div>
+        <br>
         <!--Horizontal line-->
         <hr style="width:100%"> 
+        <br><br>
     <?php
         include_once 'slide show.php'
     ?>    

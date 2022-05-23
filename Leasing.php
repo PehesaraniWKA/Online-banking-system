@@ -22,7 +22,7 @@
             <a href="contactus.php">Contact us</a>
             <a  href="about us.php">About us</a>
         </div>
-
+    <br>
     <!--Horizontal line-->
     <hr style="width:100%">
 

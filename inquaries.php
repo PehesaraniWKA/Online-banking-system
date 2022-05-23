@@ -32,7 +32,6 @@ session_start();
         </section>
         <!--Horizontal line-->
         <hr style="width:100%">
-        
 
         <!-- Slide bar -->
 
@@ -70,6 +69,7 @@ session_start();
                 })
             </script>
         </div>
+        <br>
         <!--Horizontal line-->
         <hr style="width:100%">
 
@@ -80,7 +80,9 @@ session_start();
             <a class="active" href="#helpandsupport">Help and Support</a>
         </div>
         <!--Horizontal line-->
-    <hr style="width:100%">
+        <hr style="width:100%">
+        <br>
+        
     <!--Nav bar-->
     <center>
         <hr>

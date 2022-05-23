@@ -67,6 +67,7 @@
                 })
             </script>
         </div>
+        <br>
         <!--Horizontal line-->
         <hr style="width:100%">
 

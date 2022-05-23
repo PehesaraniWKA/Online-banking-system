@@ -27,14 +27,12 @@
                 <a href="contactus.php">Contact us</a>
                 <a  href="about us.php">About us</a>
                 <a  href="joinwithus.php">Join with us</a>
-            </div>
+      </div>
+      <br>
       <!--Horizontal line-->
       <hr style="width:100%">          
-            
-                <br>
-                <h1>Financial calculators</h1><br><br>
-            
-            
+      <br>
+        
         <?php
         include_once 'slide show.php'
         ?>            
@@ -42,6 +40,8 @@
         <!--Horizontal line-->
         <hr style="width:100%">
         <br><br>
+        <h1>Financial calculators</h1>
+        <br>
         
         <div class="calrow" width="100%">
             <div class="calcolumn">
