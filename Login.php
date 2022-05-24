@@ -35,7 +35,7 @@
 				</p>
 			</div>
 			<p class="login-register-text">Not Registered Yet?<br>Get the best online banking experience with ABC Bank</p>
-			<p class="regbtn"><a href="Register.php">Register Now</a></p>
+			<p class="regbtn"><a href="Register intro.php">Register Now</a></p>
 			</div>
 		</form>
 	</div>
