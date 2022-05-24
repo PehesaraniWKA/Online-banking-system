@@ -136,7 +136,7 @@
 			<li>businessmen</li>
 			<li>Sri Lankans employed abroad</li>
 		</h4></ul><br>
-		
+		<section class="loantable">
 		<table class="ploan" style="width:75%">
 			<tr>
 				<th>Tenure(fixed)</th>
@@ -163,6 +163,7 @@
 			</tr>
 			
 		</table><br><br>
+		</section>
 	</div>
 		 <!--Horizontal line-->
         <hr style="width:100%">
@@ -218,7 +219,7 @@
 			<li>Bank Account Statements</li>
 			<li>University or Institute offer Letter with course details / Cost Details.</li>
 		</h4></ul><br>
-		
+		<section class="loantable">
 		<table class="ploan" style="width:75%">
 			<tr>
 				<th>Tenure</th>
@@ -268,6 +269,7 @@
 				
 			</tr>
 		</table><br><br>
+		</section>
 		
 	</div>	
 
