@@ -29,9 +29,11 @@
         <a  href="about us.php">About us</a>
     </div>
 
+    <br>
     <!--Horizontal line-->
     <hr style="width:100%"> 
-
+    <br>
+    
     <!--Slide show-->
     <?php
         include_once 'slide show.php'
