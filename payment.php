@@ -25,12 +25,12 @@
 			<option value="AIA">AIA</option>
 			</select>
 			</div>
-            <label for="fname"><i class="fa fa-user"></i> Full Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Dinakara" required>
+            <label for="name"><i class="fa fa-user"></i> Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Dinakara" required>
             <label for="email"><i class="fa fa-envelope"></i> Email</label>
             <input type="email" id="email" name="email" placeholder="Dinakara@example.com" required>
             <label for="Refno"><i class="fa fa-address-card-o"></i> Enter Reference No </label>
-            <input type="text" id="Refno" name="Reference" placeholder="Optional">
+            <input type="text" id="Refno" name="Refno" placeholder="Optional">
             <label for="Phone"><i class="fa fa-institution"></i> Phone</label>
             <input type="phone" id="phone" name="phone" placeholder="0711233218" required>
 
