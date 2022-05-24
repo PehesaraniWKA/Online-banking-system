@@ -127,7 +127,7 @@
             <br>
         <div class="location">
             <h3>Location</h3>
-                <p>ABC Towers, No: XX, <br>Galle Road, <br>Colombo XX, <br>Sri Lanka</p>
+                <p>ABC Towers, No: XX,Galle Road, <br>Colombo XX, <br>Sri Lanka</p>
                 <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d380991.33186985203!2d79.70523550080387!3d6.905129556441875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2591640b4e0b3%3A0x14fcac803e83edbd!2sBeira%20Lake!5e0!3m2!1sen!2slk!4v1652699424745!5m2!1sen!2slk"><img class="img-location" src="images/map.png" alt="Map_location"></a>
         </div>
             </div>
