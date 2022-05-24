@@ -30,7 +30,7 @@
 
     <body>
 
-        <script src="joinwithus.js"></script>
+        
         <!-- Baner image for new tab-->
 
         <!-- <Body background=" bk1.png">    Background image for new tab-->
@@ -65,12 +65,44 @@
                  <img src="images/d4.png" width="270px" height="250px">
                  </span>
            </div>
+
+
+
+           
       </div>
      </div>
      </div>
 
 
+
      <!--   Form Content-->
+     
+     <div class = "pagebox">
+         <h2> Join with ABC team </h2>
+         <form action="joininsert.php" method="post">
+
+        
+              <input type="text" id="name" name="name" class="inputj" placeholder="  Enter your name" required>
+            
+              <input type="email" id="email" name="email" class="inputj" placeholder="Enter Your Email">
+
+              <input size="1" type="text" id="about" name="about" class="inputj" placeholder="Tell us about you" required>
+
+               <label for="vacancy">Vacancy</label>
+               <select id="vacancy" name="vacancy">
+                <option value="Marketing">Marketing Representative</option>
+                <option value="loan">Loan Officer</option>
+                <option value="bank">Bank Tellers</option>
+                <option value="analyst">Investment Analyst</option>
+               </select>
+
+                <input type="submit"  class="joinbtn" value="Submit" >
+
+            </form>
+          </div>
+
+
+     
 
     </body>
  

@@ -29,7 +29,7 @@
       
     if(mysqli_query($conn, $sql)){
 
-        echo nl2br("$name\n $email\n $Refno\n $phone\n $cardname\n $cardnumber\n $expmonth\n $expyear\n $cvv");
+        echo nl2br("");
     } else{
         echo "ERROR: Hush! Sorry $sql. " 
             . mysqli_error($conn);

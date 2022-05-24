@@ -3,7 +3,7 @@
     $servername='localhost';
     $username='root';
     $password='';
-    $dbname = "iwt_project";
+    $dbname = "abc_bank";
     $conn=mysqli_connect($servername,$username,$password,"$dbname");
 
 
@@ -22,7 +22,7 @@
       
     if(mysqli_query($conn, $sql)){
 
-        echo nl2br("\n$name\n $tellus\n");
+       echo file_get_contents('chatbot3.php');
     } else{
         echo "ERROR: Hush! Sorry $sql. " 
             . mysqli_error($conn);
