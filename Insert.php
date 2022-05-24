@@ -3,8 +3,8 @@
     $servername='localhost';
     $username='root';
     $password='';
-    $dbname = "iwt_project";
-    $conn=mysqli_connect($servername,$username,$password,"$dbname");
+    $dbname = "abc_bank";
+    $conn=mysqli_connect($servername,$username,$password,$dbname);
 
 
     if($conn === false){

@@ -11,7 +11,7 @@
 <div class="row">
   <div class="col-75">
    <div class="container">
-      <form action="/action_page.php">
+      <form action="insert.php" method="post">
       
         <div class="row">
           <div class="col-50">
