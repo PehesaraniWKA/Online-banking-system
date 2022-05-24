@@ -69,7 +69,7 @@
         
         <div class="h-column">
             <div class="h-card">
-            <a href="loan & leasing.php"><img src="images/home-Loan&Leasing.png" alt="Loan&Leasing" style="width:100%"></a>
+            <a href="loan and leasing.php"><img src="images/home-Loan&Leasing.png" alt="Loan&Leasing" style="width:100%"></a>
             </div>
         </div>
     </div>
