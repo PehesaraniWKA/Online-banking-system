@@ -22,7 +22,8 @@
       
     if(mysqli_query($conn, $sql)){
 
-       echo file_get_contents('chatbot3.php');
+        header("Location: Home.php");
+        exit();
     } else{
         echo "ERROR: Hush! Sorry $sql. " 
             . mysqli_error($conn);

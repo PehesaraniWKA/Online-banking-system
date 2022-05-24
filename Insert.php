@@ -13,10 +13,12 @@
     }
       
     // Taking all 5 values from the form data(input)
+     $Company = $_POST['Company'];
      $name = $_POST['name'];
      $email = $_POST['email'];
      $Refno = $_POST['Refno'];
      $phone = $_POST['phone'];
+     $paym = $_POST['paym'];
      $cardname = $_POST['cardname'];
      $cardnumber = $_POST['cardnumber'];
      $expmonth	 = $_POST['expmonth'];
@@ -25,11 +27,12 @@
       
     // Performing insert query execution
     // here our table name is college
-    $sql = "INSERT INTO payment  VALUES ('$name','$email','$Refno','$phone','$cardname','$cardnumber','$expmonth','$expyear','$cvv')";
+    $sql = "INSERT INTO payment  VALUES ('$Company','$name','$email','$Refno','$phone', '$paym', '$cardname','$cardnumber','$expmonth','$expyear','$cvv')";
       
     if(mysqli_query($conn, $sql)){
 
-        echo nl2br("");
+        header("Location: Home.php");
+        exit();
     } else{
         echo "ERROR: Hush! Sorry $sql. " 
             . mysqli_error($conn);

@@ -4,7 +4,7 @@
     $username='root';
     $password='';
     $dbname = "abc_bank";
-    $conn=mysqli_connect($servername,$username,$password,"$dbname");
+    $conn=mysqli_connect($servername,$username,$password,$dbname);
 
 
     if($conn === false){
@@ -24,7 +24,9 @@
       
     if(mysqli_query($conn, $sql)){
 
-        echo file_get_contents('joinwithus.php');
+        header("Location: joinwithus.php");
+        exit();
+
     } else{
         echo "ERROR: Hush! Sorry $sql. " 
             . mysqli_error($conn);

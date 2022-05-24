@@ -37,10 +37,10 @@
             <div class="row">
               <div class="col-50">
                 <label for="paym">Payment methord</label>
-                <input type = "radio" name="methord"
+                <input type = "radio" name="paym"
                 value="Credit card"> Credit card
 
-                <input type = "radio" name="methord"
+                <input type = "radio" name="paym"
                 value="Bank Tranfer"> Bank Tranfer
               </div>
             </div>

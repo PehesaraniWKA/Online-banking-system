@@ -88,7 +88,7 @@
 
               <input size="1" type="text" id="about" name="about" class="inputj" placeholder="Tell us about you" required>
 
-               <label for="vacancy">Vacancy</label>
+              
                <select id="vacancy" name="vacancy">
                 <option value="Marketing">Marketing Representative</option>
                 <option value="loan">Loan Officer</option>
@@ -96,7 +96,7 @@
                 <option value="analyst">Investment Analyst</option>
                </select>
 
-                <input type="submit"  class="joinbtn" value="Submit" >
+               <a href="Home.php"><input type="submit"  class="joinbtn" value="Submit"></a>
 
             </form>
           </div>
