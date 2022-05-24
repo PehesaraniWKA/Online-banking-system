@@ -16,138 +16,116 @@
     height: 300px;
     margin: 100px auto;
     background: transparent;
-    
-} 
-
+}
 
 
 /* large box secor as 4 defarant box */
 
 .container-join .box {
-  position: relative;
-  width: calc(270px - 1px);
-  height: calc(250px - 1px);
-  background-image: linear-gradient(to bottom right, #2d373e, #2d373e);
-  float: left;
-  margin: 30px;
-  box-sizing: border-box;
-  border-radius: 10px;
-  margin-left: 60px;
+    position: relative;
+    width: calc(270px - 1px);
+    height: calc(250px - 1px);
+    background-image: linear-gradient(to bottom right, #2d373e, #2d373e);
+    float: left;
+    margin: 30px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-left: 60px;
 }
 
 .container-join .box:hover {
-  background-image: linear-gradient(to bottom right, #00a7e4, rgb(31, 233, 189));
-  opacity: 0.5;
-  transform: 5;
+    background-image: linear-gradient(to bottom right, #00a7e4, rgb(31, 233, 189));
+    opacity: 0.5;
+    transform: 5;
 }
 
 
-/*hover popup window*/
+/* hover popup window */
 
 .hovertext {
-  position: relative;
-  border-bottom: 1px dotted rgb(12, 12, 12);
+    position: relative;
+    border-bottom: 1px dotted rgb(12, 12, 12);
 }
 
 .hovertext:before {
-  content: attr(data-hover);
-  visibility: hidden;
-  opacity: 0.5;
-  width: 270px;
-  height: 250px;
-  background-color: rgb(14, 14, 14);
-  color: rgb(218, 212, 212);
-  font-size: 25px;
-  text-align: center;
-  border-radius: 5px;
-  padding: 5px 0;
-  transition: opacity 0.7s ease-in-out;
-  position: absolute;
-  z-index: 1;
-  left: -135px;
-  /* alling with imag */
-  top: 0%;
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0.5;
+    width: 270px;
+    height: 250px;
+    background-color: rgb(14, 14, 14);
+    color: rgb(218, 212, 212);
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0;
+    transition: opacity 0.7s ease-in-out;
+    position: absolute;
+    z-index: 1;
+    left: -135px;
+    /* alling with imag */
+    top: 0%;
 }
 
 .hovertext:hover:before {
-  opacity: 1;
-  visibility: visible;
+    opacity: 1;
+    visibility: visible;
 }
-
-
-
-
-
-
 
 
 /* Form Join us */
-.pagebox{
 
-  width: 1500px;
-  height: 400px;
- 
-  
-  
-  position: relative;
-  left: 40px;
-  top: -20px;
-  align-self: center;
-  z-index: 1;
-  margin-left: 30px;
-
-  box-shadow: #2d373e;
-  
+.pagebox {
+    width: 1500px;
+    height: 400px;
+    position: relative;
+    left: 40px;
+    top: -20px;
+    align-self: center;
+    z-index: 1;
+    margin-left: 30px;
+    box-shadow: #2d373e;
 }
 
-  
-.inputj[type=text], select {
-  width: 650px;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  box-sizing: border-box;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: 0px;
-
+.inputj[type=text],
+select {
+    width: 650px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
 }
 
-.inputj[type=email], select {
-  width: 650px;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  box-sizing: border-box;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: 30px;
-
+.inputj[type=email],
+select {
+    width: 650px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
 }
 
-  
-
-.joinbtn{
-
-  width: 200px;
-  height: 50px;
-  margin-left: 580px;
-  margin-top: 30px;
-  background-color: #3ec0f0;
-  border-radius: 10px;
-  border: transparent;
-  cursor: pointer;
+.joinbtn {
+    width: 200px;
+    height: 50px;
+    margin-left: 580px;
+    margin-top: 30px;
+    background-color: #3ec0f0;
+    border-radius: 10px;
+    border: transparent;
+    cursor: pointer;
 }
 
-
-.joinbtn:hover{
-
-  background-color: rgb(92, 167, 142);
+.joinbtn:hover {
+    background-color: rgb(92, 167, 142);
 }
-
-
-
