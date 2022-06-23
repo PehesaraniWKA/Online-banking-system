@@ -24,8 +24,10 @@
                 </form>
             </div>
         </div>
+        <br>
         <!--Horizontal line-->
         <hr style="width:100%">
+        <br>
 <div class="article-container">
     <?php
         if (isset($_POST['submit-search'])) {
@@ -48,6 +50,7 @@
     ?>
 
 </div>
+<br>
 <?php
     include_once 'slide show.php'
 ?>            

@@ -666,7 +666,7 @@ section#top {
 /*search*/
 
 .article-container {
-    width: 900px;
+    width: 100%;
     background-color: #fff;
     padding: 30px;
 }
